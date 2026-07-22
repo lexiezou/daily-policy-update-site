@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T15:33:03.999818+08:00",
+  "window": {
+    "start": "2026-07-21T17:33:57+08:00",
+    "end": "2026-07-22T15:33:03.999818+08:00"
+  },
+  "containsNonWorkdayBackfill": false,
+  "conclusion": "同步不完整，请先查看失败来源",
+  "incompleteSources": [
+    "FTC Press Releases",
+    "FTC Cases and Proceedings"
+  ],
+  "analysisPending": 26,
+  "modelErrors": [
+    "Apple Developer System Status: HTTPError",
+    "App Review Guidelines: HTTPError",
+    "Apple Developer News: HTTPError",
+    "App Store Connect Release Notes: HTTPError",
+    "Apple Security Releases: HTTPError",
+    "Google Play Status Dashboard: HTTPError",
+    "Google Play Console Announcements: HTTPError",
+    "Google Play Policy Center: HTTPError",
+    "Google Play Policy Deadlines: HTTPError",
+    "国务院办公厅 2026 年部分节假日安排: HTTPError",
+    "Google Play Developer Program Policy: HTTPError",
+    "OpenAI News: HTTPError",
+    "Android Developers Google Play Policies: HTTPError",
+    "OpenAI API Changelog: HTTPError",
+    "美国区应用 listing 向第三方商店提供安排: HTTPError",
+    "Play Catalog Access Program: HTTPError",
+    "Google Play 美国开发者政策更新: HTTPError",
+    "Claude Status: HTTPError",
+    "Third-party App Store on Play Program: HTTPError",
+    "OpenAI Status: HTTPError",
+    "US State Attorneys General Directory: HTTPError",
+    "California Attorney General Press Releases: HTTPError",
+    "EU Digital Markets Act Latest News: HTTPError",
+    "Competition and Markets Authority: HTTPError",
+    "Anthropic Newsroom: HTTPError",
+    "European Commission Consumer Protection: HTTPError"
+  ],
+  "events": []
+}

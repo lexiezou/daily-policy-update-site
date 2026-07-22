@@ -1,19 +1,393 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T17:13:02.550715+08:00",
+  "generatedAt": "2026-07-22T17:27:16.191712+08:00",
   "runMode": "manual",
   "window": {
     "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-22T17:13:02.550715+08:00"
+    "end": "2026-07-22T17:27:16.191712+08:00"
   },
   "containsNonWorkdayBackfill": false,
   "conclusion": "今日无政策或安全事件更新",
   "incompleteSources": [],
   "unavailableSources": [
     "FTC Cases and Proceedings",
+    "Singapore PDPC Enforcement Decisions",
+    "Singapore PDPC Announcements",
     "San Francisco City Attorney News"
   ],
+  "sourceCoverage": {
+    "registered": 40,
+    "expected": 33,
+    "checked": 33,
+    "succeeded": 29,
+    "failed": 4,
+    "discoveryOnly": 7,
+    "details": [
+      {
+        "id": "china_workday_2026",
+        "name": "国务院办公厅 2026 年部分节假日安排",
+        "publisher": "中国政府网",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "apple_developer_news",
+        "name": "Apple Developer News",
+        "publisher": "Apple",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "apple_app_store_connect_release_notes",
+        "name": "App Store Connect Release Notes",
+        "publisher": "Apple",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "apple_app_review_guidelines",
+        "name": "App Review Guidelines",
+        "publisher": "Apple",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "apple_developer_system_status",
+        "name": "Apple Developer System Status",
+        "publisher": "Apple",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "apple_security_releases",
+        "name": "Apple Security Releases",
+        "publisher": "Apple",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_announcements",
+        "name": "Google Play Console Announcements",
+        "publisher": "Google Play",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_policy_center",
+        "name": "Google Play Policy Center",
+        "publisher": "Google Play",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_policy_deadlines",
+        "name": "Google Play Policy Deadlines",
+        "publisher": "Google Play",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_developer_program_policy",
+        "name": "Google Play Developer Program Policy",
+        "publisher": "Google Play",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "android_play_policies",
+        "name": "Android Developers Google Play Policies",
+        "publisher": "Google",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_status",
+        "name": "Google Play Status Dashboard",
+        "publisher": "Google Play",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_us_policy_update",
+        "name": "Google Play 美国开发者政策更新",
+        "publisher": "Google Play",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_third_party_store_program",
+        "name": "Third-party App Store on Play Program",
+        "publisher": "Google Play",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_catalog_access",
+        "name": "Play Catalog Access Program",
+        "publisher": "Google Play",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "google_play_listing_distribution",
+        "name": "美国区应用 listing 向第三方商店提供安排",
+        "publisher": "Google Play",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "openai_news",
+        "name": "OpenAI News",
+        "publisher": "OpenAI",
+        "priority": "conditional",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "openai_api_changelog",
+        "name": "OpenAI API Changelog",
+        "publisher": "OpenAI",
+        "priority": "conditional",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "openai_status",
+        "name": "OpenAI Status",
+        "publisher": "OpenAI",
+        "priority": "conditional",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "anthropic_news",
+        "name": "Anthropic Newsroom",
+        "publisher": "Anthropic",
+        "priority": "conditional",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "anthropic_status",
+        "name": "Claude Status",
+        "publisher": "Anthropic",
+        "priority": "conditional",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "ftc_press_releases",
+        "name": "FTC Press Releases",
+        "publisher": "Federal Trade Commission",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "ftc_cases_proceedings",
+        "name": "FTC Cases and Proceedings",
+        "publisher": "Federal Trade Commission",
+        "priority": "high",
+        "status": "failed",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "eu_dma_latest_news",
+        "name": "EU Digital Markets Act Latest News",
+        "publisher": "European Commission",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "eu_consumer_protection",
+        "name": "European Commission Consumer Protection",
+        "publisher": "European Commission",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "uk_cma",
+        "name": "Competition and Markets Authority",
+        "publisher": "UK Government",
+        "priority": "required",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "us_state_attorney_general_directory",
+        "name": "US State Attorneys General Directory",
+        "publisher": "USAGov",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "california_attorney_general_news",
+        "name": "California Attorney General Press Releases",
+        "publisher": "California Department of Justice",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "san_francisco_city_attorney_news",
+        "name": "San Francisco City Attorney News",
+        "publisher": "City Attorney of San Francisco",
+        "priority": "high",
+        "status": "failed",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "edpb_news",
+        "name": "European Data Protection Board News",
+        "publisher": "European Data Protection Board",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "singapore_pdpc_announcements",
+        "name": "Singapore PDPC Announcements",
+        "publisher": "Personal Data Protection Commission Singapore",
+        "priority": "high",
+        "status": "failed",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "singapore_pdpc_enforcement_decisions",
+        "name": "Singapore PDPC Enforcement Decisions",
+        "publisher": "Personal Data Protection Commission Singapore",
+        "priority": "high",
+        "status": "failed",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "bundeskartellamt_digital_economy",
+        "name": "Bundeskartellamt Digital Economy",
+        "publisher": "German Federal Cartel Office",
+        "priority": "high",
+        "status": "success",
+        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+      },
+      {
+        "id": "jamf_threat_labs",
+        "name": "Jamf Threat Labs",
+        "publisher": "Jamf",
+        "priority": "conditional",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "techcrunch",
+        "name": "TechCrunch",
+        "publisher": "TechCrunch",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "the_verge_policy",
+        "name": "The Verge Policy",
+        "publisher": "The Verge",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "wired_security",
+        "name": "WIRED Security",
+        "publisher": "WIRED",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "macdailynews",
+        "name": "MacDailyNews",
+        "publisher": "MacDailyNews",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "google_play_developer_community",
+        "name": "Google Play Developer Community",
+        "publisher": "Google",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      },
+      {
+        "id": "apple_developer_forums",
+        "name": "Apple Developer Forums",
+        "publisher": "Apple",
+        "priority": "supplemental",
+        "status": "discovery_only",
+        "checkedAt": "",
+        "lastSuccessAt": ""
+      }
+    ],
+    "candidateSources": 0,
+    "candidateSourcesUpdatedAt": ""
+  },
   "analysisPending": 0,
   "modelErrors": [],
   "events": [],

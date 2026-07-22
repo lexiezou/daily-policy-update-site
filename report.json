@@ -1,27 +1,25 @@
 {
   "schemaVersion": 3,
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T17:27:16.191712+08:00",
+  "generatedAt": "2026-07-22T17:32:08.322998+08:00",
   "runMode": "manual",
   "window": {
     "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-22T17:27:16.191712+08:00"
+    "end": "2026-07-22T17:32:08.322998+08:00"
   },
   "containsNonWorkdayBackfill": false,
   "conclusion": "今日无政策或安全事件更新",
   "incompleteSources": [],
   "unavailableSources": [
     "FTC Cases and Proceedings",
-    "Singapore PDPC Enforcement Decisions",
-    "Singapore PDPC Announcements",
     "San Francisco City Attorney News"
   ],
   "sourceCoverage": {
     "registered": 40,
     "expected": 33,
     "checked": 33,
-    "succeeded": 29,
-    "failed": 4,
+    "succeeded": 31,
+    "failed": 2,
     "discoveryOnly": 7,
     "details": [
       {
@@ -30,8 +28,8 @@
         "publisher": "中国政府网",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "apple_developer_news",
@@ -39,8 +37,8 @@
         "publisher": "Apple",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "apple_app_store_connect_release_notes",
@@ -48,8 +46,8 @@
         "publisher": "Apple",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "apple_app_review_guidelines",
@@ -57,8 +55,8 @@
         "publisher": "Apple",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "apple_developer_system_status",
@@ -66,8 +64,8 @@
         "publisher": "Apple",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "apple_security_releases",
@@ -75,8 +73,8 @@
         "publisher": "Apple",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_announcements",
@@ -84,8 +82,8 @@
         "publisher": "Google Play",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_policy_center",
@@ -93,8 +91,8 @@
         "publisher": "Google Play",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_policy_deadlines",
@@ -102,8 +100,8 @@
         "publisher": "Google Play",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_developer_program_policy",
@@ -111,8 +109,8 @@
         "publisher": "Google Play",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "android_play_policies",
@@ -120,8 +118,8 @@
         "publisher": "Google",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_status",
@@ -129,8 +127,8 @@
         "publisher": "Google Play",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_us_policy_update",
@@ -138,8 +136,8 @@
         "publisher": "Google Play",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_third_party_store_program",
@@ -147,8 +145,8 @@
         "publisher": "Google Play",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_catalog_access",
@@ -156,8 +154,8 @@
         "publisher": "Google Play",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "google_play_listing_distribution",
@@ -165,8 +163,8 @@
         "publisher": "Google Play",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "openai_news",
@@ -174,8 +172,8 @@
         "publisher": "OpenAI",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "openai_api_changelog",
@@ -183,8 +181,8 @@
         "publisher": "OpenAI",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "openai_status",
@@ -192,8 +190,8 @@
         "publisher": "OpenAI",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "anthropic_news",
@@ -201,8 +199,8 @@
         "publisher": "Anthropic",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "anthropic_status",
@@ -210,8 +208,8 @@
         "publisher": "Anthropic",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "ftc_press_releases",
@@ -219,8 +217,8 @@
         "publisher": "Federal Trade Commission",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "ftc_cases_proceedings",
@@ -228,7 +226,7 @@
         "publisher": "Federal Trade Commission",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -237,8 +235,8 @@
         "publisher": "European Commission",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "eu_consumer_protection",
@@ -246,8 +244,8 @@
         "publisher": "European Commission",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "uk_cma",
@@ -255,8 +253,8 @@
         "publisher": "UK Government",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "us_state_attorney_general_directory",
@@ -264,8 +262,8 @@
         "publisher": "USAGov",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "california_attorney_general_news",
@@ -273,8 +271,8 @@
         "publisher": "California Department of Justice",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "san_francisco_city_attorney_news",
@@ -282,7 +280,7 @@
         "publisher": "City Attorney of San Francisco",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -291,26 +289,26 @@
         "publisher": "European Data Protection Board",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "singapore_pdpc_announcements",
         "name": "Singapore PDPC Announcements",
         "publisher": "Personal Data Protection Commission Singapore",
         "priority": "high",
-        "status": "failed",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": ""
+        "status": "success",
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "singapore_pdpc_enforcement_decisions",
         "name": "Singapore PDPC Enforcement Decisions",
         "publisher": "Personal Data Protection Commission Singapore",
         "priority": "high",
-        "status": "failed",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": ""
+        "status": "success",
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "bundeskartellamt_digital_economy",
@@ -318,8 +316,8 @@
         "publisher": "German Federal Cartel Office",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T17:27:16.191712+08:00",
-        "lastSuccessAt": "2026-07-22T17:27:16.191712+08:00"
+        "checkedAt": "2026-07-22T17:32:08.322998+08:00",
+        "lastSuccessAt": "2026-07-22T17:32:08.322998+08:00"
       },
       {
         "id": "jamf_threat_labs",

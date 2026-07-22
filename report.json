@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T15:33:03.999818+08:00",
+  "generatedAt": "2026-07-22T15:49:41.491755+08:00",
   "window": {
-    "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-22T15:33:03.999818+08:00"
+    "start": "2026-07-22T15:33:03.999818+08:00",
+    "end": "2026-07-22T15:49:41.491755+08:00"
   },
   "containsNonWorkdayBackfill": false,
   "conclusion": "同步不完整，请先查看失败来源",
   "incompleteSources": [
+    "FTC Cases and Proceedings",
     "FTC Press Releases",
-    "FTC Cases and Proceedings"
+    "Google Play Console Announcements"
   ],
-  "analysisPending": 26,
+  "analysisPending": 34,
   "modelErrors": [
     "Apple Developer System Status: HTTPError",
     "App Review Guidelines: HTTPError",
@@ -39,7 +40,15 @@
     "EU Digital Markets Act Latest News: HTTPError",
     "Competition and Markets Authority: HTTPError",
     "Anthropic Newsroom: HTTPError",
-    "European Commission Consumer Protection: HTTPError"
+    "European Commission Consumer Protection: HTTPError",
+    "Google Play Policy Deadlines: HTTPError",
+    "Google Play Status Dashboard: HTTPError",
+    "Third-party App Store on Play Program: HTTPError",
+    "美国区应用 listing 向第三方商店提供安排: HTTPError",
+    "OpenAI Status: HTTPError",
+    "Play Catalog Access Program: HTTPError",
+    "Google Play 美国开发者政策更新: HTTPError",
+    "Google Play Policy Center: HTTPError"
   ],
   "events": []
 }

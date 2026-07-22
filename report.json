@@ -1,10 +1,11 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T16:41:14.743623+08:00",
+  "generatedAt": "2026-07-22T17:09:46.109984+08:00",
+  "runMode": "manual",
   "window": {
-    "start": "2026-07-22T16:33:24.708115+08:00",
-    "end": "2026-07-22T16:41:14.743623+08:00"
+    "start": "2026-07-21T17:33:57+08:00",
+    "end": "2026-07-22T17:09:46.109984+08:00"
   },
   "containsNonWorkdayBackfill": false,
   "conclusion": "今日无政策或安全事件更新",
@@ -15,5 +16,59 @@
   ],
   "analysisPending": 0,
   "modelErrors": [],
-  "events": []
+  "events": [],
+  "attentionItems": [
+    {
+      "id": "google-play-us-third-party-store-2026-07-22",
+      "status": "active",
+      "title": "Google Play 美国第三方应用商店安排生效",
+      "action": "持续关注开发者 opt-out、Play Catalog Access、第三方商店上架与安全审查要求是否有官方补充说明。",
+      "owner": "产品 / AM / 开发",
+      "effectiveAt": "",
+      "sourceName": "Google Play 官方帮助中心",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+      "firstSeenAt": "2026-07-21",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "apple-ai-nudify-removal-media-signal-2026-07-20",
+      "status": "active",
+      "title": "AI nudify / 非自愿亲密图像应用治理",
+      "action": "持续关注 Apple、Google 是否发布正式执法说明、政策解释、账号终止范围或审核政策更新；当前媒体信息仍标注未获官方确认。",
+      "owner": "产品 / 合规 / AM",
+      "effectiveAt": "",
+      "sourceName": "MacDailyNews",
+      "sourceUrl": "https://macdailynews.com/2026/07/20/apple-purges-ai-nudify-apps-from-app-store-after-san-francisco-demands-crackdown-on-non-consensual-deepfakes/",
+      "firstSeenAt": "2026-07-21",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "ftc-genesis-tech-subscription-case-2026-06",
+      "status": "active",
+      "title": "FTC Genesis Tech 订阅执法案件",
+      "action": "核查订阅披露、自动续费、重复收费、捆绑添加产品及取消流程，持续跟进 FTC 案件进展。",
+      "owner": "商业化产品 / 合规 / 支付",
+      "effectiveAt": "",
+      "sourceName": "FTC 官方新闻稿",
+      "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
+      "firstSeenAt": "2026-07-21",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "google-play-2026-policy-deadlines",
+      "status": "active",
+      "title": "Google Play 2026 年政策公告后续期限",
+      "action": "持续跟进 2026-08-26、2026-09-30、2026-10-28 和 2027-01-27 等节点对匿名聊天、儿童、位置权限及 SMS / Call Log 的影响。",
+      "owner": "产品 / Android 开发 / AM",
+      "effectiveAt": "",
+      "sourceName": "Google Play Console Announcements",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/announcements/13412212?hl=en",
+      "firstSeenAt": "2026-07-21",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    }
+  ]
 }

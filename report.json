@@ -1,16 +1,14 @@
 {
   "schemaVersion": 1,
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T16:33:24.708115+08:00",
+  "generatedAt": "2026-07-22T16:41:14.743623+08:00",
   "window": {
-    "start": "2026-07-22T16:00:53.440994+08:00",
-    "end": "2026-07-22T16:33:24.708115+08:00"
+    "start": "2026-07-22T16:33:24.708115+08:00",
+    "end": "2026-07-22T16:41:14.743623+08:00"
   },
   "containsNonWorkdayBackfill": false,
-  "conclusion": "同步不完整，请先查看失败来源",
-  "incompleteSources": [
-    "FTC Press Releases"
-  ],
+  "conclusion": "今日无政策或安全事件更新",
+  "incompleteSources": [],
   "unavailableSources": [
     "FTC Cases and Proceedings",
     "San Francisco City Attorney News"

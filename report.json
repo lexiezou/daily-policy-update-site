@@ -1,14 +1,14 @@
 {
   "schemaVersion": 3,
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-22T18:35:55.713844+08:00",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T09:49:11.086103+08:00",
   "runMode": "manual",
   "window": {
     "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-22T18:35:55.713844+08:00"
+    "end": "2026-07-23T09:49:11.086103+08:00"
   },
   "containsNonWorkdayBackfill": false,
-  "conclusion": "发现 1 项需要关注的更新",
+  "conclusion": "发现 4 项需要关注的更新",
   "incompleteSources": [],
   "unavailableSources": [
     "FTC Cases and Proceedings",
@@ -29,8 +29,8 @@
         "url": "https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "apple_developer_news",
@@ -39,8 +39,8 @@
         "url": "https://developer.apple.com/news/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "apple_app_store_connect_release_notes",
@@ -49,8 +49,8 @@
         "url": "https://developer.apple.com/help/app-store-connect/release-notes/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "apple_app_review_guidelines",
@@ -59,8 +59,8 @@
         "url": "https://developer.apple.com/app-store/review/guidelines/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "apple_developer_system_status",
@@ -69,8 +69,8 @@
         "url": "https://developer.apple.com/system-status/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "apple_security_releases",
@@ -79,8 +79,8 @@
         "url": "https://support.apple.com/en-us/100100",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_announcements",
@@ -89,8 +89,8 @@
         "url": "https://support.google.com/googleplay/android-developer/announcements/13412212?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_policy_center",
@@ -99,8 +99,8 @@
         "url": "https://support.google.com/googleplay/android-developer/topic/9877766?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_policy_deadlines",
@@ -109,8 +109,8 @@
         "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_developer_program_policy",
@@ -119,8 +119,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17105854?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "android_play_policies",
@@ -129,8 +129,8 @@
         "url": "https://developer.android.com/distribute/play-policies",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_status",
@@ -139,8 +139,8 @@
         "url": "https://status.play.google.com/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_us_policy_update",
@@ -149,8 +149,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_third_party_store_program",
@@ -159,8 +159,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17118006?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_catalog_access",
@@ -169,8 +169,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17117200?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "google_play_listing_distribution",
@@ -179,8 +179,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17187609?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "openai_news",
@@ -189,8 +189,8 @@
         "url": "https://openai.com/news/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "openai_api_changelog",
@@ -199,8 +199,8 @@
         "url": "https://developers.openai.com/api/docs/changelog",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "openai_status",
@@ -209,8 +209,8 @@
         "url": "https://status.openai.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "anthropic_news",
@@ -219,8 +219,8 @@
         "url": "https://www.anthropic.com/news",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "anthropic_status",
@@ -229,8 +229,8 @@
         "url": "https://status.claude.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "ftc_press_releases",
@@ -239,8 +239,8 @@
         "url": "https://www.ftc.gov/feeds/press-release.xml",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "ftc_cases_proceedings",
@@ -249,7 +249,7 @@
         "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -259,8 +259,8 @@
         "url": "https://digital-markets-act.ec.europa.eu/latest-news_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "eu_consumer_protection",
@@ -269,8 +269,8 @@
         "url": "https://commission.europa.eu/topics/consumers_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "uk_cma",
@@ -279,8 +279,8 @@
         "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "us_state_attorney_general_directory",
@@ -289,8 +289,8 @@
         "url": "https://www.usa.gov/state-attorney-general",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "california_attorney_general_news",
@@ -299,8 +299,8 @@
         "url": "https://oag.ca.gov/media/news",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "san_francisco_city_attorney_news",
@@ -309,7 +309,7 @@
         "url": "https://sfcityattorney.org/category/news/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -319,8 +319,8 @@
         "url": "https://www.edpb.europa.eu/news_en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "singapore_pdpc_announcements",
@@ -329,8 +329,8 @@
         "url": "https://www.pdpc.gov.sg/media-events?type=Announcements",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "singapore_pdpc_enforcement_decisions",
@@ -339,8 +339,8 @@
         "url": "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions?type=Commission%27s+Decisions",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "bundeskartellamt_digital_economy",
@@ -349,8 +349,8 @@
         "url": "https://www.bundeskartellamt.de/EN/Digital_economy/digitaleconomy_node.html",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-22T18:35:55.713844+08:00",
-        "lastSuccessAt": "2026-07-22T18:35:55.713844+08:00"
+        "checkedAt": "2026-07-23T09:49:11.086103+08:00",
+        "lastSuccessAt": "2026-07-23T09:49:11.086103+08:00"
       },
       {
         "id": "jamf_threat_labs",
@@ -431,13 +431,61 @@
   "events": [
     {
       "section": "政策变更",
+      "title": "Google Play 美国外部内容链接与替代计费项目报告及费用要求生效通知",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "2026-10-01",
+      "summary": "Google Play 于 2026 年 7 月 22 日发布通知，自 2026 年 10 月 1 日起，加入美国外部内容链接（external content links）和替代计费（alternative billing）项目的开发者须报告交易和成功下载量，并缴纳相关服务费。",
+      "impact": "参与美国外部内容链接或替代计费项目的开发者需建立交易与下载数据上报机制，并按要求支付服务费，否则可能面临合规风险或项目资格被取消。",
+      "action": "核查是否已加入美国外部内容链接或替代计费项目；若是，需在 2026-10-01 前完成交易与下载数据上报系统对接，并确保服务费缴纳流程就绪。",
+      "owner": "支付与合规团队",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "google_play_us_policy_update",
+      "sourceName": "Google Play 美国开发者政策更新",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+      "fingerprint": "6176d904d8cd02cc5915220e"
+    },
+    {
+      "section": "新闻报道",
+      "title": "FTC 对 Trend Deploy 欺骗性营销行为向消费者退款",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "",
+      "summary": "FTC 宣布将向因 Trend Deploy 的欺骗性营销行为而受损的消费者退还资金。",
+      "impact": "涉及欺骗性营销和消费者权益保护，可能影响相关营销合规策略。",
+      "action": "审查营销材料和用户沟通内容，确保无误导性或欺骗性表述，符合 FTC 合规要求。",
+      "owner": "合规与法务部",
+      "priority": "medium",
+      "confirmed": true,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "2545a50831da37d188f887ee"
+    },
+    {
+      "section": "新闻报道",
+      "title": "学生贷款减免诈骗者被永久禁止从事债务减免行业和电话营销",
+      "publishedAt": "2026-07-21",
+      "effectiveAt": "",
+      "summary": "FTC 宣布对学生贷款减免诈骗者实施永久禁令，禁止其从事债务减免行业和电话营销。",
+      "impact": "强化对债务减免和电话营销的监管，提醒企业需严格遵守相关营销和消费者保护法规。",
+      "action": "审查债务减免相关服务及电话营销活动的合规性，确保无类似违规行为。",
+      "owner": "合规与法务部",
+      "priority": "medium",
+      "confirmed": true,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "c16311829786d14307e2a631"
+    },
+    {
+      "section": "政策变更",
       "title": "新加坡PDPC发布生成式AI中个人数据使用咨询指南",
       "publishedAt": "2026-07-20",
       "effectiveAt": "2026-07-20",
-      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式AI场景中收集、使用和披露个人数据提供合规指引。",
-      "impact": "涉及生成式AI产品开发或集成的企业需审查其数据处理流程，确保在训练、推理、数据输入输出等环节符合PDPA要求，特别是同意、目的限制、数据保护和跨境传输等义务。不合规可能导致执法行动和声誉损失。",
-      "action": "审查现有生成式AI产品或服务中个人数据的收集、使用和披露行为，对照新指南进行合规差距分析；更新隐私政策和数据处理协议；必要时开展数据保护影响评估（DPIA）；对相关团队进行培训。",
-      "owner": "合规与法务团队、AI/数据产品团队、数据保护官（DPO）",
+      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式人工智能场景中收集、使用和披露个人数据提供合规指引。",
+      "impact": "涉及生成式AI产品或服务的应用开发者、平台运营方需审视其AI模型训练、推理及数据处理流程是否符合PDPA要求，特别是在数据来源合法性、用户告知、同意机制及数据最小化方面。不合规可能导致执法调查或处罚。",
+      "action": "审查现有生成式AI功能中个人数据的处理逻辑，确保数据来源合法、具备适当同意机制或合法依据；更新隐私政策以反映AI数据使用场景；开展内部合规培训并留存合规记录。",
+      "owner": "合规与法务团队、AI产品团队、数据保护官（DPO）",
       "priority": "high",
       "confirmed": true,
       "sourceId": "singapore_pdpc_enforcement_decisions",
@@ -448,15 +496,69 @@
   ],
   "historyEvents": [
     {
+      "section": "政策变更",
+      "title": "Google Play 美国外部内容链接与替代计费项目报告及费用要求生效通知",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "2026-10-01",
+      "summary": "Google Play 于 2026 年 7 月 22 日发布通知，自 2026 年 10 月 1 日起，加入美国外部内容链接（external content links）和替代计费（alternative billing）项目的开发者须报告交易和成功下载量，并缴纳相关服务费。",
+      "impact": "参与美国外部内容链接或替代计费项目的开发者需建立交易与下载数据上报机制，并按要求支付服务费，否则可能面临合规风险或项目资格被取消。",
+      "action": "核查是否已加入美国外部内容链接或替代计费项目；若是，需在 2026-10-01 前完成交易与下载数据上报系统对接，并确保服务费缴纳流程就绪。",
+      "owner": "支付与合规团队",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "google_play_us_policy_update",
+      "sourceName": "Google Play 美国开发者政策更新",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+      "fingerprint": "6176d904d8cd02cc5915220e",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "新闻报道",
+      "title": "FTC 对 Trend Deploy 欺骗性营销行为向消费者退款",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "",
+      "summary": "FTC 宣布将向因 Trend Deploy 的欺骗性营销行为而受损的消费者退还资金。",
+      "impact": "涉及欺骗性营销和消费者权益保护，可能影响相关营销合规策略。",
+      "action": "审查营销材料和用户沟通内容，确保无误导性或欺骗性表述，符合 FTC 合规要求。",
+      "owner": "合规与法务部",
+      "priority": "medium",
+      "confirmed": true,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "2545a50831da37d188f887ee",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "新闻报道",
+      "title": "学生贷款减免诈骗者被永久禁止从事债务减免行业和电话营销",
+      "publishedAt": "2026-07-21",
+      "effectiveAt": "",
+      "summary": "FTC 宣布对学生贷款减免诈骗者实施永久禁令，禁止其从事债务减免行业和电话营销。",
+      "impact": "强化对债务减免和电话营销的监管，提醒企业需严格遵守相关营销和消费者保护法规。",
+      "action": "审查债务减免相关服务及电话营销活动的合规性，确保无类似违规行为。",
+      "owner": "合规与法务部",
+      "priority": "medium",
+      "confirmed": true,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "c16311829786d14307e2a631",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
       "fingerprint": "1c3ab143cee97367848ba263",
       "section": "政策变更",
       "title": "新加坡PDPC发布生成式AI中个人数据使用咨询指南",
       "publishedAt": "2026-07-20",
       "effectiveAt": "2026-07-20",
-      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式AI场景中收集、使用和披露个人数据提供合规指引。",
-      "impact": "涉及生成式AI产品开发或集成的企业需审查其数据处理流程，确保在训练、推理、数据输入输出等环节符合PDPA要求，特别是同意、目的限制、数据保护和跨境传输等义务。不合规可能导致执法行动和声誉损失。",
-      "action": "审查现有生成式AI产品或服务中个人数据的收集、使用和披露行为，对照新指南进行合规差距分析；更新隐私政策和数据处理协议；必要时开展数据保护影响评估（DPIA）；对相关团队进行培训。",
-      "owner": "合规与法务团队、AI/数据产品团队、数据保护官（DPO）",
+      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式人工智能场景中收集、使用和披露个人数据提供合规指引。",
+      "impact": "涉及生成式AI产品或服务的应用开发者、平台运营方需审视其AI模型训练、推理及数据处理流程是否符合PDPA要求，特别是在数据来源合法性、用户告知、同意机制及数据最小化方面。不合规可能导致执法调查或处罚。",
+      "action": "审查现有生成式AI功能中个人数据的处理逻辑，确保数据来源合法、具备适当同意机制或合法依据；更新隐私政策以反映AI数据使用场景；开展内部合规培训并留存合规记录。",
+      "owner": "合规与法务团队、AI产品团队、数据保护官（DPO）",
       "priority": "high",
       "confirmed": true,
       "sourceId": "singapore_pdpc_enforcement_decisions",
@@ -600,6 +702,32 @@
       "sourceName": "Google Play Console Announcements",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/announcements/13412212?hl=en",
       "firstSeenAt": "2026-07-21",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "2545a50831da37d188f887ee",
+      "status": "active",
+      "title": "FTC 对 Trend Deploy 欺骗性营销行为向消费者退款",
+      "action": "审查营销材料和用户沟通内容，确保无误导性或欺骗性表述，符合 FTC 合规要求。",
+      "owner": "合规与法务部",
+      "effectiveAt": "",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "firstSeenAt": "2026-07-23",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "c16311829786d14307e2a631",
+      "status": "active",
+      "title": "学生贷款减免诈骗者被永久禁止从事债务减免行业和电话营销",
+      "action": "审查债务减免相关服务及电话营销活动的合规性，确保无类似违规行为。",
+      "owner": "合规与法务部",
+      "effectiveAt": "",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "firstSeenAt": "2026-07-23",
       "ongoing": true,
       "category": "无固定日期的持续风险"
     }

@@ -1,15 +1,18 @@
 {
   "schemaVersion": 4,
   "date": "2026-07-23",
-  "generatedAt": "2026-07-23T12:00:21.478063+08:00",
-  "runMode": "manual",
+  "generatedAt": "2026-07-23T12:24:27.760201+08:00",
+  "runMode": "scheduled",
   "window": {
     "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-23T12:00:21.478063+08:00"
+    "end": "2026-07-23T12:24:27.760201+08:00"
   },
   "containsNonWorkdayBackfill": false,
-  "conclusion": "发现页面变化，等待模型分析完成",
-  "incompleteSources": [],
+  "conclusion": "同步不完整，请先查看失败来源",
+  "incompleteSources": [
+    "Google Play Policy Center — Help Center",
+    "Google Play Policy Center — Announcements"
+  ],
   "unavailableSources": [
     "App Tracking Transparency Documentation",
     "PayPal Status",
@@ -37,8 +40,8 @@
         "url": "https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_developer_news",
@@ -47,8 +50,8 @@
         "url": "https://developer.apple.com/news/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_app_store_connect_release_notes",
@@ -57,8 +60,8 @@
         "url": "https://developer.apple.com/help/app-store-connect/release-notes/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_app_review_guidelines",
@@ -67,8 +70,8 @@
         "url": "https://developer.apple.com/app-store/review/guidelines/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_developer_system_status",
@@ -77,8 +80,8 @@
         "url": "https://developer.apple.com/system-status/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_security_releases",
@@ -87,8 +90,8 @@
         "url": "https://support.apple.com/en-us/100100",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_announcements",
@@ -97,8 +100,8 @@
         "url": "https://support.google.com/googleplay/android-developer/announcements/13412212?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_policy_center",
@@ -107,8 +110,8 @@
         "url": "https://support.google.com/googleplay/android-developer/topic/9877766?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_policy_deadlines",
@@ -117,8 +120,8 @@
         "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_developer_program_policy",
@@ -127,8 +130,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17105854?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "android_play_policies",
@@ -137,8 +140,8 @@
         "url": "https://developer.android.com/distribute/play-policies",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_status",
@@ -147,8 +150,8 @@
         "url": "https://status.play.google.com/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_us_policy_update",
@@ -157,8 +160,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_third_party_store_program",
@@ -167,8 +170,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17118006?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_catalog_access",
@@ -177,8 +180,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17117200?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_listing_distribution",
@@ -187,8 +190,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17187609?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "openai_news",
@@ -197,8 +200,8 @@
         "url": "https://openai.com/news/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "openai_api_changelog",
@@ -207,8 +210,8 @@
         "url": "https://developers.openai.com/api/docs/changelog",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "openai_status",
@@ -217,8 +220,8 @@
         "url": "https://status.openai.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "anthropic_news",
@@ -227,8 +230,8 @@
         "url": "https://www.anthropic.com/news",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "anthropic_status",
@@ -237,8 +240,8 @@
         "url": "https://status.claude.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "ftc_press_releases",
@@ -247,8 +250,8 @@
         "url": "https://www.ftc.gov/feeds/press-release.xml",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "ftc_cases_proceedings",
@@ -257,7 +260,7 @@
         "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -267,8 +270,8 @@
         "url": "https://digital-markets-act.ec.europa.eu/latest-news_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "eu_consumer_protection",
@@ -277,8 +280,8 @@
         "url": "https://commission.europa.eu/topics/consumers_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "uk_cma",
@@ -287,8 +290,8 @@
         "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "us_state_attorney_general_directory",
@@ -297,8 +300,8 @@
         "url": "https://www.usa.gov/state-attorney-general",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "california_attorney_general_news",
@@ -307,8 +310,8 @@
         "url": "https://oag.ca.gov/media/news",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "san_francisco_city_attorney_news",
@@ -317,7 +320,7 @@
         "url": "https://sfcityattorney.org/category/news/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -397,8 +400,8 @@
         "url": "https://developer.apple.com/news/?topic=app-review",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_upcoming_requirements",
@@ -407,8 +410,8 @@
         "url": "https://developer.apple.com/news/upcoming-requirements/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_search_ads_help",
@@ -417,8 +420,8 @@
         "url": "https://searchads.apple.com/help",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_system_status",
@@ -427,8 +430,8 @@
         "url": "https://www.apple.com/support/systemstatus/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "apple_att_documentation",
@@ -437,7 +440,7 @@
         "url": "https://developer.apple.com/documentation/apptrackingtransparency",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -447,8 +450,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/16543315?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_play_policy_summary_16550159",
@@ -457,8 +460,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/16550159?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_developer_events",
@@ -467,8 +470,8 @@
         "url": "https://developers.google.com/events",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "android_developers_blog",
@@ -477,8 +480,8 @@
         "url": "https://android-developers.googleblog.com",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "android_privacy_sandbox",
@@ -487,8 +490,8 @@
         "url": "https://developers.google.com/privacy-sandbox/android",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "anthropic_api_release_notes",
@@ -497,8 +500,8 @@
         "url": "https://docs.anthropic.com/en/release-notes/api",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "stripe_docs_changelog",
@@ -507,8 +510,8 @@
         "url": "https://docs.stripe.com/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "stripe_blog_changelog",
@@ -517,8 +520,8 @@
         "url": "https://stripe.com/blog/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "stripe_status",
@@ -527,7 +530,7 @@
         "url": "https://status.stripe.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -537,8 +540,8 @@
         "url": "https://developer.paypal.com/community/blog/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "paypal_open_release_notes",
@@ -547,8 +550,8 @@
         "url": "https://www.paypal.com/us/brc/article/paypal-open-release-notes",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "paypal_status",
@@ -557,7 +560,7 @@
         "url": "https://paypal-status.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -567,8 +570,8 @@
         "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/overview",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "braintree_policy_updates",
@@ -577,8 +580,8 @@
         "url": "https://www.paypal.com/us/legalhub/braintree/policy-updates?country.x=US&locale.x=en_US",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adyen_release_notes",
@@ -587,8 +590,8 @@
         "url": "https://docs.adyen.com/release-notes",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adyen_status",
@@ -597,8 +600,8 @@
         "url": "https://status.adyen.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "checkout_newsroom",
@@ -607,8 +610,8 @@
         "url": "https://www.checkout.com/newsroom",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "paddle_changelog",
@@ -617,8 +620,8 @@
         "url": "https://developer.paddle.com/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "paddle_status",
@@ -627,8 +630,8 @@
         "url": "https://status.paddle.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adapty_changelog",
@@ -637,8 +640,8 @@
         "url": "https://changelog.adapty.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adapty_status",
@@ -647,8 +650,8 @@
         "url": "https://status.adapty.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "funnelfox_changelog",
@@ -657,8 +660,8 @@
         "url": "https://funnelfox.com/docs/release-notes/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "funnelfox_status",
@@ -667,8 +670,8 @@
         "url": "https://status.funnelfox.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "primer_api_changelog",
@@ -677,8 +680,8 @@
         "url": "https://primer.io/docs/changelogs/api-changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "primer_status",
@@ -687,8 +690,8 @@
         "url": "https://status.primer.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "anrok_updates_notices",
@@ -697,8 +700,8 @@
         "url": "https://help-center.anrok.com/hc/en-us/categories/42439199325843-Updates-Notices",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "anrok_status",
@@ -707,8 +710,8 @@
         "url": "https://anrok-status.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_ads_policies",
@@ -717,8 +720,8 @@
         "url": "https://support.google.com/adspolicy/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_ads_status",
@@ -727,8 +730,8 @@
         "url": "https://ads.google.com/status/publisher/summary",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "meta_developer_blog",
@@ -737,8 +740,8 @@
         "url": "https://developers.facebook.com/blog/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "meta_business_news",
@@ -747,8 +750,8 @@
         "url": "https://www.facebook.com/business/news",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "tiktok_ads_help",
@@ -757,8 +760,8 @@
         "url": "https://ads.tiktok.com/help/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "tiktok_developers",
@@ -767,8 +770,8 @@
         "url": "https://developers.tiktok.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "tiktok_developer_changelog",
@@ -777,8 +780,8 @@
         "url": "https://developers.tiktok.com/doc/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "moloco_product_updates",
@@ -787,8 +790,8 @@
         "url": "https://help.moloco.com/hc/en-us/categories/360004147434-Product-updates",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "moloco_api_versioning",
@@ -797,8 +800,8 @@
         "url": "https://developer.moloco.cloud/docs/versioning",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "liftoff_blog",
@@ -807,8 +810,8 @@
         "url": "https://liftoff.io/blog/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "applovin_axon_growth",
@@ -817,8 +820,8 @@
         "url": "https://support.applovin.com/en/growth/getting-started",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "unity_user_acquisition",
@@ -827,8 +830,8 @@
         "url": "https://docs.unity.com/en-us/user-acquisition",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "applovin_developer_docs",
@@ -837,8 +840,8 @@
         "url": "https://developers.applovin.com/en/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "facebook_audience_network",
@@ -847,8 +850,8 @@
         "url": "https://developers.facebook.com/docs/audience-network/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "unity_levelplay_docs",
@@ -857,8 +860,8 @@
         "url": "https://docs.unity.com/grow/levelplay/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "unity_status",
@@ -867,8 +870,8 @@
         "url": "https://status.unity.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "admob_help",
@@ -877,8 +880,8 @@
         "url": "https://support.google.com/admob/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "admob_policy_changelog",
@@ -887,8 +890,8 @@
         "url": "https://support.google.com/admob/answer/9391084?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "inmobi_whats_new",
@@ -897,8 +900,8 @@
         "url": "https://support.inmobi.com/inmobi-now",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "vungle_android_releases",
@@ -907,8 +910,8 @@
         "url": "https://support.vungle.com/hc/en-us/articles/15722228922395-Download-Vungle-SDK-for-Android-Amazon",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "vungle_ios_releases",
@@ -917,8 +920,8 @@
         "url": "https://support.vungle.com/hc/en-us/articles/15718672681883-Download-Vungle-SDK-for-iOS",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "moloco_publisher_help",
@@ -927,8 +930,8 @@
         "url": "https://help.publisher.moloco.com/hc/en-us",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "moloco_android_sdk_releases",
@@ -937,8 +940,8 @@
         "url": "https://moloco.github.io/android-sdk-docs/index.html",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "appsflyer_developer_docs",
@@ -947,8 +950,8 @@
         "url": "https://dev.appsflyer.com/hc/docs",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "appsflyer_whats_new",
@@ -957,8 +960,8 @@
         "url": "https://support.appsflyer.com/hc/en-us/sections/6551161473041-What-s-new",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "appsflyer_status",
@@ -967,8 +970,8 @@
         "url": "https://status.appsflyer.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adjust_help",
@@ -977,8 +980,8 @@
         "url": "https://help.adjust.com/en/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "adjust_status",
@@ -987,8 +990,8 @@
         "url": "https://status.adjust.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "kochava_product_updates",
@@ -997,8 +1000,8 @@
         "url": "https://www.kochava.com/category/product-updates/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "ico_direct_marketing",
@@ -1007,8 +1010,8 @@
         "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/about-this-guidance/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "microsoft_365_roadmap",
@@ -1017,8 +1020,8 @@
         "url": "https://www.microsoft.com/en-us/microsoft-365/roadmap",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_workspace_updates",
@@ -1027,8 +1030,8 @@
         "url": "https://workspaceupdates.googleblog.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "google_workspace_status",
@@ -1037,8 +1040,8 @@
         "url": "https://www.google.com/appsstatus/dashboard/summary",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "slack_release_notes",
@@ -1047,8 +1050,8 @@
         "url": "https://slack.com/release-notes",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "slack_status",
@@ -1057,8 +1060,8 @@
         "url": "https://status.slack.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "airtable_newsroom",
@@ -1067,8 +1070,8 @@
         "url": "https://www.airtable.com/newsroom",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "airtable_status",
@@ -1077,8 +1080,8 @@
         "url": "https://status.airtable.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "lastpass_release_notes",
@@ -1087,8 +1090,8 @@
         "url": "https://lastpass.com/releasenotes.php",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "lastpass_status",
@@ -1097,7 +1100,7 @@
         "url": "https://status.lastpass.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
         "lastSuccessAt": ""
       },
       {
@@ -1107,8 +1110,8 @@
         "url": "https://releases.1password.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "onepassword_status",
@@ -1117,8 +1120,8 @@
         "url": "https://status.1password.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:00:21.478063+08:00",
-        "lastSuccessAt": "2026-07-23T12:00:21.478063+08:00"
+        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
         "id": "android_authority_google_play",
@@ -1264,7 +1267,7 @@
     "candidateSources": 0,
     "candidateSourcesUpdatedAt": ""
   },
-  "analysisPending": 264,
+  "analysisPending": 262,
   "modelErrors": [],
   "events": [
     {
@@ -1374,36 +1377,48 @@
     {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
-      "title": "Google Play Families 政策更新：禁止匿名聊天应用面向儿童",
+      "title": "Google Play 家庭政策预览：禁止匿名聊天应用针对儿童",
       "publishedAt": "2026-07-21",
       "effectiveAt": "2026-08-26",
-      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（如 chat roulette 风格应用、约会应用、儿童开放式聊天室、匿名用户风格应用、'blindfold' 应用等）将儿童作为目标受众。",
-      "impact": "若应用包含匿名聊天功能且目标受众包含儿童，将在 2026 年 8 月 26 日后面临下架或暂停风险。涉及儿童隐私保护、内容治理及合规要求，属于 P0 级别影响。",
-      "action": "1. 排查旗下所有应用是否包含匿名聊天或陌生人社交功能；2. 若存在此类功能，需调整目标受众设置，移除儿童群体；3. 或在 2026-08-26 前下线相关功能模块；4. 更新 Play Console 中 Target Audience and Content 及 Data safety 相关信息。",
-      "owner": "产品合规团队 / 法务团队",
+      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展其《家庭政策要求》（Families Policy Requirements），明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如聊天轮盘、约会应用、儿童开放式聊天室、匿名应用、“盲聊”应用等）将儿童列为目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "若应用包含匿名聊天或陌生人聊天功能且目标受众包含儿童，将在生效后面临下架或暂停风险；涉及儿童隐私与内容安全合规，属 P0 级儿童保护政策，影响所有面向家庭/儿童市场的社交或含社交功能应用。",
+      "action": "1) 排查应用是否包含匿名聊天、陌生人匹配、开放式聊天室等功能；2) 若存在且目标受众含儿童，需在 2026-08-26 前移除相关功能或调整目标受众排除儿童；3) 更新 Play Console 中目标受众与内容分级问卷；4) 确保社交功能具备成人验证机制及在线安全提示；5) 同步法务与合规团队评估 COPPA/GDPR-K 合规。",
+      "owner": "产品/合规/法务",
       "priority": "critical",
       "confirmed": true,
       "sourceId": "url::8a1adfad88826ca5533c",
       "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
-      "fingerprint": "b2f6c6680f997551fa87dae1"
+      "fingerprint": "725bc9695a02a0360e3b815c",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Preview: Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
+        }
+      ]
     },
     {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
-      "title": "Google Play 家庭政策更新：禁止匿名聊天应用针对儿童",
+      "title": "Google Play Families Policies 将禁止匿名聊天应用针对儿童",
       "publishedAt": "",
       "effectiveAt": "2026-08-26",
-      "summary": "Google Play 宣布将扩展其家庭政策要求，明确禁止匿名聊天应用的开发者将儿童作为目标用户。该政策变更将于2026年8月26日生效。",
-      "impact": "所有面向儿童或混合受众的匿名聊天类应用将受到直接影响，若继续针对儿童用户可能导致应用被下架或开发者账号被暂停。涉及社交功能、儿童隐私保护及内容合规的业务线需重新评估产品定位与功能设计。",
-      "action": "1. 排查现有应用中是否存在匿名聊天功能且面向儿童或混合受众的情况；2. 若存在，需在2026年8月26日前调整目标受众设置或移除相关功能；3. 更新Play Console中的目标受众和内容声明；4. 确保社交功能符合成人验证和在线安全提醒要求。",
-      "owner": "产品合规团队 / 法务团队",
+      "summary": "Google Play 宣布将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（anonymous chat apps）的开发者将儿童作为目标用户。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名聊天类应用将面临下架或暂停风险；开发者需重新评估应用的目标受众声明及社交功能设计，确保不向儿童开放匿名聊天功能，否则可能违反政策导致应用被移除。",
+      "action": "1. 排查旗下应用是否包含匿名聊天功能且目标受众包含儿童；2. 若存在此类情况，需在 2026-08-26 前调整目标受众设置或移除/限制匿名聊天功能对儿童的可用性；3. 更新 Play Console 中的目标受众和内容声明，确保合规。",
+      "owner": "产品合规团队 / 应用开发团队",
       "priority": "critical",
       "confirmed": true,
       "sourceId": "url::429efe9e3ee73b505938",
       "sourceName": "Google Play Policy Center — Google Play Families Policies",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766",
-      "fingerprint": "40119b4f4e228aff19cbbc45"
+      "fingerprint": "6b433e9f825362f6698f373b",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
+        }
+      ]
     },
     {
       "section": "政策变更",
@@ -1420,26 +1435,106 @@
       "sourceId": "apple_app_review_news",
       "sourceName": "Apple Developer News — App Review",
       "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "27ae8d912930c3413c8740d8"
+      "fingerprint": "27ae8d912930c3413c8740d8",
+      "sourceLinks": [
+        {
+          "name": "Apple Developer News — App Review",
+          "url": "https://developer.apple.com/news/?topic=app-review"
+        }
+      ]
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "德克萨斯州年龄验证与未成年人同意要求生效",
+      "publishedAt": "2026-06-03",
+      "effectiveAt": "2026-06-04",
+      "summary": "因法院解除对德州 SB 2420 法律的禁令，新 Apple Accounts 在德州须遵守年龄验证要求。开发者须对 18 岁以下用户的下载、Apple In-App Purchases 及应用重大变更获取父母或监护人同意，父母可撤销同意。开发者需通过 Declared Age Range API 获取年龄分类数据，通过 PermissionKit 下的 Significant Change API 处理重大变更，并配置 App Store 服务器通知以接收同意撤销信息。",
+      "impact": "直接影响儿童与账号安全合规。未实现相关 API 将导致在德州无法合规运营，面临下架或法律风险。涉及应用分发、内购及订阅业务。",
+      "action": "1) 集成 Declared Age Range API 获取用户年龄分类；2) 集成 PermissionKit 下的 Significant Change API；3) 配置 App Store 服务器通知以接收同意撤销；4) 在 StoreKit 中使用新的年龄分级属性类型；5) 使用 Apple 沙盒环境测试验证。",
+      "owner": "研发 / 法务合规 / 产品",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "e874d2644882068b29db2005"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西 iOS 替代分发、替代支付及核心技术佣金政策生效",
+      "publishedAt": "2026-06-18",
+      "effectiveAt": "2026-06-18",
+      "summary": "根据与巴西竞争监管机构 CADE 的协议，自 iOS 26.5 起，开发者可在巴西通过替代应用市场分发应用、运营替代应用市场、在 Apple In-App Purchase 之外处理数字商品和服务支付，并涉及核心技术佣金（Core Technology Commission）。Apple Developer Program License Agreement Attachment 12 已修订相应条款。",
+      "impact": "直接影响巴西市场分发与支付策略，涉及应用商店、订阅与支付业务。开发者可选择替代分发渠道和支付方式，但需承担核心技术佣金并遵守新条款。",
+      "action": "1) 评估巴西市场是否采用替代分发或替代支付方案；2) 审阅并签署更新后的 Apple Developer Program License Agreement Attachment 12；3) 核算核心技术佣金对收入的影响；4) 确保替代支付流程符合巴西当地法规。",
+      "owner": "巴西市场业务负责人 / 法务 / 支付团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "0c66c7631d8eedca10394144"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "App Store 新增 12 个月承诺期月度订阅选项",
+      "publishedAt": "2026-04-27",
+      "effectiveAt": "2026-05-01",
+      "summary": "App Store 推出新的自动续期订阅支付方式：12 个月承诺期的月度订阅。用户可随时取消以防止续期，但需完成约定付款。Apple 将在续期前发送邮件和推送通知提醒。除美国和  新加坡外，全球可用，需 iOS 26.4 及以上系统。",
+      "impact": "影响订阅业务定价策略与用户留存。提供更灵活的订阅选项可能提升转化率，但需管理承诺期内的用户预期和取消流程。",
+      "action": "1) 评估是否推出 12 个月承诺期月度订阅；2) 在 App Store Connect 配置新订阅类型；3) 在 Xcode 中测试；4) 更新定价策略和用户沟通。",
+      "owner": "订阅业务负责人 / 产品 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "f002e064a7361ee890a2c204"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西固定赔率博彩应用需提交博彩许可证",
+      "publishedAt": "2026-05-08",
+      "effectiveAt": "2026-05-08",
+      "summary": "根据巴西固定赔率博彩法规变更，含固定赔率博彩功能的应用现可在巴西 App Store 分发，但须持有巴西奖品和博彩秘书处（SPA）颁发的有效固定赔率博彩许可证。开发者须在提交新版本时在 App Review Information 的 Notes 字段中填写许可证详情并上传证明文件。回答年龄分级问卷中的博彩问题将把巴西年龄分级设为 A18。",
+      "impact": "影响巴西市场博彩类应用合规。未提供有效许可证将无法通过审核或面临下架。",
+      "action": "1) 确认应用是否含固定赔率博彩功能；2) 获取 SPA 颁发的有效许可证；3) 提交新版本时在 App Review Information 中填写许可证信息并上传证明文件；4) 确保应用符合年龄限制和博彩风险披露要求。",
+      "owner": "巴西市场业务负责人 / 法务 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "019a8ae5576bae0b16d71547"
     }
   ],
   "historyEvents": [
     {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
-      "title": "Google Play 家庭政策更新：禁止匿名聊天应用针对儿童",
+      "title": "Google Play Families Policies 将禁止匿名聊天应用针对儿童",
       "publishedAt": "",
       "effectiveAt": "2026-08-26",
-      "summary": "Google Play 宣布将扩展其家庭政策要求，明确禁止匿名聊天应用的开发者将儿童作为目标用户。该政策变更将于2026年8月26日生效。",
-      "impact": "所有面向儿童或混合受众的匿名聊天类应用将受到直接影响，若继续针对儿童用户可能导致应用被下架或开发者账号被暂停。涉及社交功能、儿童隐私保护及内容合规的业务线需重新评估产品定位与功能设计。",
-      "action": "1. 排查现有应用中是否存在匿名聊天功能且面向儿童或混合受众的情况；2. 若存在，需在2026年8月26日前调整目标受众设置或移除相关功能；3. 更新Play Console中的目标受众和内容声明；4. 确保社交功能符合成人验证和在线安全提醒要求。",
-      "owner": "产品合规团队 / 法务团队",
+      "summary": "Google Play 宣布将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（anonymous chat apps）的开发者将儿童作为目标用户。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名聊天类应用将面临下架或暂停风险；开发者需重新评估应用的目标受众声明及社交功能设计，确保不向儿童开放匿名聊天功能，否则可能违反政策导致应用被移除。",
+      "action": "1. 排查旗下应用是否包含匿名聊天功能且目标受众包含儿童；2. 若存在此类情况，需在 2026-08-26 前调整目标受众设置或移除/限制匿名聊天功能对儿童的可用性；3. 更新 Play Console 中的目标受众和内容声明，确保合规。",
+      "owner": "产品合规团队 / 应用开发团队",
       "priority": "critical",
       "confirmed": true,
       "sourceId": "url::429efe9e3ee73b505938",
       "sourceName": "Google Play Policy Center — Google Play Families Policies",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766",
-      "fingerprint": "40119b4f4e228aff19cbbc45",
+      "fingerprint": "6b433e9f825362f6698f373b",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
+        }
+      ],
       "firstSeenAt": "2026-07-23",
       "historyOrigin": "automated"
     },
@@ -1518,19 +1613,25 @@
     {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
-      "title": "Google Play Families 政策更新：禁止匿名聊天应用面向儿童",
+      "title": "Google Play 家庭政策预览：禁止匿名聊天应用针对儿童",
       "publishedAt": "2026-07-21",
       "effectiveAt": "2026-08-26",
-      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（如 chat roulette 风格应用、约会应用、儿童开放式聊天室、匿名用户风格应用、'blindfold' 应用等）将儿童作为目标受众。",
-      "impact": "若应用包含匿名聊天功能且目标受众包含儿童，将在 2026 年 8 月 26 日后面临下架或暂停风险。涉及儿童隐私保护、内容治理及合规要求，属于 P0 级别影响。",
-      "action": "1. 排查旗下所有应用是否包含匿名聊天或陌生人社交功能；2. 若存在此类功能，需调整目标受众设置，移除儿童群体；3. 或在 2026-08-26 前下线相关功能模块；4. 更新 Play Console 中 Target Audience and Content 及 Data safety 相关信息。",
-      "owner": "产品合规团队 / 法务团队",
+      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展其《家庭政策要求》（Families Policy Requirements），明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如聊天轮盘、约会应用、儿童开放式聊天室、匿名应用、“盲聊”应用等）将儿童列为目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "若应用包含匿名聊天或陌生人聊天功能且目标受众包含儿童，将在生效后面临下架或暂停风险；涉及儿童隐私与内容安全合规，属 P0 级儿童保护政策，影响所有面向家庭/儿童市场的社交或含社交功能应用。",
+      "action": "1) 排查应用是否包含匿名聊天、陌生人匹配、开放式聊天室等功能；2) 若存在且目标受众含儿童，需在 2026-08-26 前移除相关功能或调整目标受众排除儿童；3) 更新 Play Console 中目标受众与内容分级问卷；4) 确保社交功能具备成人验证机制及在线安全提示；5) 同步法务与合规团队评估 COPPA/GDPR-K 合规。",
+      "owner": "产品/合规/法务",
       "priority": "critical",
       "confirmed": true,
       "sourceId": "url::8a1adfad88826ca5533c",
       "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
-      "fingerprint": "b2f6c6680f997551fa87dae1",
+      "fingerprint": "725bc9695a02a0360e3b815c",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Preview: Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
+        }
+      ],
       "firstSeenAt": "2026-07-23",
       "historyOrigin": "automated"
     },
@@ -1574,6 +1675,88 @@
       "sourceName": "Apple Developer News — App Review",
       "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
       "fingerprint": "27ae8d912930c3413c8740d8",
+      "sourceLinks": [
+        {
+          "name": "Apple Developer News — App Review",
+          "url": "https://developer.apple.com/news/?topic=app-review"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西 iOS 替代分发、替代支付及核心技术佣金政策生效",
+      "publishedAt": "2026-06-18",
+      "effectiveAt": "2026-06-18",
+      "summary": "根据与巴西竞争监管机构 CADE 的协议，自 iOS 26.5 起，开发者可在巴西通过替代应用市场分发应用、运营替代应用市场、在 Apple In-App Purchase 之外处理数字商品和服务支付，并涉及核心技术佣金（Core Technology Commission）。Apple Developer Program License Agreement Attachment 12 已修订相应条款。",
+      "impact": "直接影响巴西市场分发与支付策略，涉及应用商店、订阅与支付业务。开发者可选择替代分发渠道和支付方式，但需承担核心技术佣金并遵守新条款。",
+      "action": "1) 评估巴西市场是否采用替代分发或替代支付方案；2) 审阅并签署更新后的 Apple Developer Program License Agreement Attachment 12；3) 核算核心技术佣金对收入的影响；4) 确保替代支付流程符合巴西当地法规。",
+      "owner": "巴西市场业务负责人 / 法务 / 支付团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "0c66c7631d8eedca10394144",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "德克萨斯州年龄验证与未成年人同意要求生效",
+      "publishedAt": "2026-06-03",
+      "effectiveAt": "2026-06-04",
+      "summary": "因法院解除对德州 SB 2420 法律的禁令，新 Apple Accounts 在德州须遵守年龄验证要求。开发者须对 18 岁以下用户的下载、Apple In-App Purchases 及应用重大变更获取父母或监护人同意，父母可撤销同意。开发者需通过 Declared Age Range API 获取年龄分类数据，通过 PermissionKit 下的 Significant Change API 处理重大变更，并配置 App Store 服务器通知以接收同意撤销信息。",
+      "impact": "直接影响儿童与账号安全合规。未实现相关 API 将导致在德州无法合规运营，面临下架或法律风险。涉及应用分发、内购及订阅业务。",
+      "action": "1) 集成 Declared Age Range API 获取用户年龄分类；2) 集成 PermissionKit 下的 Significant Change API；3) 配置 App Store 服务器通知以接收同意撤销；4) 在 StoreKit 中使用新的年龄分级属性类型；5) 使用 Apple 沙盒环境测试验证。",
+      "owner": "研发 / 法务合规 / 产品",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "e874d2644882068b29db2005",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西固定赔率博彩应用需提交博彩许可证",
+      "publishedAt": "2026-05-08",
+      "effectiveAt": "2026-05-08",
+      "summary": "根据巴西固定赔率博彩法规变更，含固定赔率博彩功能的应用现可在巴西 App Store 分发，但须持有巴西奖品和博彩秘书处（SPA）颁发的有效固定赔率博彩许可证。开发者须在提交新版本时在 App Review Information 的 Notes 字段中填写许可证详情并上传证明文件。回答年龄分级问卷中的博彩问题将把巴西年龄分级设为 A18。",
+      "impact": "影响巴西市场博彩类应用合规。未提供有效许可证将无法通过审核或面临下架。",
+      "action": "1) 确认应用是否含固定赔率博彩功能；2) 获取 SPA 颁发的有效许可证；3) 提交新版本时在 App Review Information 中填写许可证信息并上传证明文件；4) 确保应用符合年龄限制和博彩风险披露要求。",
+      "owner": "巴西市场业务负责人 / 法务 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "019a8ae5576bae0b16d71547",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "App Store 新增 12 个月承诺期月度订阅选项",
+      "publishedAt": "2026-04-27",
+      "effectiveAt": "2026-05-01",
+      "summary": "App Store 推出新的自动续期订阅支付方式：12 个月承诺期的月度订阅。用户可随时取消以防止续期，但需完成约定付款。Apple 将在续期前发送邮件和推送通知提醒。除美国和  新加坡外，全球可用，需 iOS 26.4 及以上系统。",
+      "impact": "影响订阅业务定价策略与用户留存。提供更灵活的订阅选项可能提升转化率，但需管理承诺期内的用户预期和取消流程。",
+      "action": "1) 评估是否推出 12 个月承诺期月度订阅；2) 在 App Store Connect 配置新订阅类型；3) 在 Xcode 中测试；4) 更新定价策略和用户沟通。",
+      "owner": "订阅业务负责人 / 产品 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "f002e064a7361ee890a2c204",
       "firstSeenAt": "2026-07-23",
       "historyOrigin": "automated"
     },

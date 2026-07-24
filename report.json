@@ -1,18 +1,15 @@
 {
-  "schemaVersion": 4,
-  "date": "2026-07-23",
-  "generatedAt": "2026-07-23T12:24:27.760201+08:00",
+  "schemaVersion": 5,
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T12:23:43.307297+08:00",
   "runMode": "scheduled",
   "window": {
-    "start": "2026-07-21T17:33:57+08:00",
-    "end": "2026-07-23T12:24:27.760201+08:00"
+    "start": "2026-07-23T12:24:27.760201+08:00",
+    "end": "2026-07-24T12:23:43.307297+08:00"
   },
-  "containsNonWorkdayBackfill": false,
-  "conclusion": "同步不完整，请先查看失败来源",
-  "incompleteSources": [
-    "Google Play Policy Center — Help Center",
-    "Google Play Policy Center — Announcements"
-  ],
+  "containsNonWorkdayBackfill": true,
+  "conclusion": "发现 2 项需要关注的更新",
+  "incompleteSources": [],
   "unavailableSources": [
     "App Tracking Transparency Documentation",
     "PayPal Status",
@@ -20,18 +17,18 @@
     "LastPass Status",
     "FTC Cases and Proceedings",
     "San Francisco City Attorney News",
-    "Moloco Ads API Versioning — change logs",
     "TikTok Ads Help Center — Sign up",
+    "TikTok Ads Help Center — About Split Testing Split testing in TikTok Ads Manager allows you to test two different versions of your ads to determine which one performs best. You can use ",
     "TikTok Ads Help Center — Terms & Policies"
   ],
   "sourceCoverage": {
     "registered": 123,
-    "expected": 102,
-    "checked": 102,
-    "succeeded": 96,
+    "expected": 86,
+    "checked": 86,
+    "succeeded": 80,
     "failed": 6,
     "discoveryOnly": 21,
-    "notDue": 0,
+    "notDue": 16,
     "details": [
       {
         "id": "china_workday_2026",
@@ -40,8 +37,8 @@
         "url": "https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_developer_news",
@@ -50,8 +47,8 @@
         "url": "https://developer.apple.com/news/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_app_store_connect_release_notes",
@@ -60,8 +57,8 @@
         "url": "https://developer.apple.com/help/app-store-connect/release-notes/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_app_review_guidelines",
@@ -70,8 +67,8 @@
         "url": "https://developer.apple.com/app-store/review/guidelines/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_developer_system_status",
@@ -80,8 +77,8 @@
         "url": "https://developer.apple.com/system-status/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_security_releases",
@@ -90,8 +87,8 @@
         "url": "https://support.apple.com/en-us/100100",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_announcements",
@@ -100,8 +97,8 @@
         "url": "https://support.google.com/googleplay/android-developer/announcements/13412212?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_policy_center",
@@ -110,8 +107,8 @@
         "url": "https://support.google.com/googleplay/android-developer/topic/9877766?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_policy_deadlines",
@@ -120,8 +117,8 @@
         "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_developer_program_policy",
@@ -130,8 +127,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17105854?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "android_play_policies",
@@ -140,8 +137,8 @@
         "url": "https://developer.android.com/distribute/play-policies",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_status",
@@ -150,8 +147,8 @@
         "url": "https://status.play.google.com/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_us_policy_update",
@@ -160,8 +157,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_third_party_store_program",
@@ -170,8 +167,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17118006?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_catalog_access",
@@ -180,8 +177,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17117200?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_play_listing_distribution",
@@ -190,8 +187,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/17187609?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "openai_news",
@@ -200,8 +197,8 @@
         "url": "https://openai.com/news/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "openai_api_changelog",
@@ -210,8 +207,8 @@
         "url": "https://developers.openai.com/api/docs/changelog",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "openai_status",
@@ -220,8 +217,8 @@
         "url": "https://status.openai.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "anthropic_news",
@@ -230,8 +227,8 @@
         "url": "https://www.anthropic.com/news",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "anthropic_status",
@@ -240,8 +237,8 @@
         "url": "https://status.claude.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "ftc_press_releases",
@@ -250,8 +247,8 @@
         "url": "https://www.ftc.gov/feeds/press-release.xml",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "ftc_cases_proceedings",
@@ -260,8 +257,8 @@
         "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "eu_dma_latest_news",
@@ -270,8 +267,8 @@
         "url": "https://digital-markets-act.ec.europa.eu/latest-news_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "eu_consumer_protection",
@@ -280,8 +277,8 @@
         "url": "https://commission.europa.eu/topics/consumers_en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "uk_cma",
@@ -290,8 +287,8 @@
         "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "us_state_attorney_general_directory",
@@ -300,8 +297,8 @@
         "url": "https://www.usa.gov/state-attorney-general",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "california_attorney_general_news",
@@ -310,8 +307,8 @@
         "url": "https://oag.ca.gov/media/news",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "san_francisco_city_attorney_news",
@@ -320,8 +317,8 @@
         "url": "https://sfcityattorney.org/category/news/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "jamf_threat_labs",
@@ -400,8 +397,8 @@
         "url": "https://developer.apple.com/news/?topic=app-review",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_upcoming_requirements",
@@ -410,8 +407,8 @@
         "url": "https://developer.apple.com/news/upcoming-requirements/",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_search_ads_help",
@@ -420,8 +417,8 @@
         "url": "https://searchads.apple.com/help",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_system_status",
@@ -430,8 +427,8 @@
         "url": "https://www.apple.com/support/systemstatus/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "apple_att_documentation",
@@ -440,18 +437,18 @@
         "url": "https://developer.apple.com/documentation/apptrackingtransparency",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "google_play_policy_detail_16543315",
         "name": "Google Play Policy Detail 16543315",
         "publisher": "Google Play",
         "url": "https://support.google.com/googleplay/android-developer/answer/16543315?hl=en",
-        "priority": "required",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "priority": "high",
+        "status": "not_due",
+        "checkedAt": "",
+        "lastSuccessAt": "2026-07-23T15:14:30.774822+08:00"
       },
       {
         "id": "google_play_policy_summary_16550159",
@@ -460,8 +457,8 @@
         "url": "https://support.google.com/googleplay/android-developer/answer/16550159?hl=en",
         "priority": "required",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_developer_events",
@@ -469,8 +466,8 @@
         "publisher": "Google",
         "url": "https://developers.google.com/events",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -480,8 +477,8 @@
         "url": "https://android-developers.googleblog.com",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "android_privacy_sandbox",
@@ -489,8 +486,8 @@
         "publisher": "Google",
         "url": "https://developers.google.com/privacy-sandbox/android",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -500,8 +497,8 @@
         "url": "https://docs.anthropic.com/en/release-notes/api",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "stripe_docs_changelog",
@@ -510,8 +507,8 @@
         "url": "https://docs.stripe.com/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "stripe_blog_changelog",
@@ -520,8 +517,8 @@
         "url": "https://stripe.com/blog/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "stripe_status",
@@ -530,8 +527,8 @@
         "url": "https://status.stripe.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "paypal_developer_blog",
@@ -540,8 +537,8 @@
         "url": "https://developer.paypal.com/community/blog/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "paypal_open_release_notes",
@@ -550,8 +547,8 @@
         "url": "https://www.paypal.com/us/brc/article/paypal-open-release-notes",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "paypal_status",
@@ -560,8 +557,8 @@
         "url": "https://paypal-status.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "braintree_network_updates",
@@ -569,8 +566,8 @@
         "publisher": "PayPal Braintree",
         "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/overview",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -579,8 +576,8 @@
         "publisher": "PayPal Braintree",
         "url": "https://www.paypal.com/us/legalhub/braintree/policy-updates?country.x=US&locale.x=en_US",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -590,8 +587,8 @@
         "url": "https://docs.adyen.com/release-notes",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "adyen_status",
@@ -600,8 +597,8 @@
         "url": "https://status.adyen.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "checkout_newsroom",
@@ -609,8 +606,8 @@
         "publisher": "Checkout.com",
         "url": "https://www.checkout.com/newsroom",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -620,8 +617,8 @@
         "url": "https://developer.paddle.com/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "paddle_status",
@@ -630,8 +627,8 @@
         "url": "https://status.paddle.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "adapty_changelog",
@@ -640,8 +637,8 @@
         "url": "https://changelog.adapty.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "adapty_status",
@@ -650,8 +647,8 @@
         "url": "https://status.adapty.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "funnelfox_changelog",
@@ -660,8 +657,8 @@
         "url": "https://funnelfox.com/docs/release-notes/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "funnelfox_status",
@@ -670,8 +667,8 @@
         "url": "https://status.funnelfox.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "primer_api_changelog",
@@ -680,8 +677,8 @@
         "url": "https://primer.io/docs/changelogs/api-changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "primer_status",
@@ -690,8 +687,8 @@
         "url": "https://status.primer.io/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "anrok_updates_notices",
@@ -700,8 +697,8 @@
         "url": "https://help-center.anrok.com/hc/en-us/categories/42439199325843-Updates-Notices",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "anrok_status",
@@ -710,8 +707,8 @@
         "url": "https://anrok-status.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_ads_policies",
@@ -720,8 +717,8 @@
         "url": "https://support.google.com/adspolicy/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_ads_status",
@@ -730,8 +727,8 @@
         "url": "https://ads.google.com/status/publisher/summary",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "meta_developer_blog",
@@ -740,8 +737,8 @@
         "url": "https://developers.facebook.com/blog/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "meta_business_news",
@@ -750,8 +747,8 @@
         "url": "https://www.facebook.com/business/news",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "tiktok_ads_help",
@@ -760,8 +757,8 @@
         "url": "https://ads.tiktok.com/help/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "tiktok_developers",
@@ -769,8 +766,8 @@
         "publisher": "TikTok",
         "url": "https://developers.tiktok.com/",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -780,8 +777,8 @@
         "url": "https://developers.tiktok.com/doc/changelog",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "moloco_product_updates",
@@ -790,8 +787,8 @@
         "url": "https://help.moloco.com/hc/en-us/categories/360004147434-Product-updates",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "moloco_api_versioning",
@@ -799,8 +796,8 @@
         "publisher": "Moloco",
         "url": "https://developer.moloco.cloud/docs/versioning",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -809,8 +806,8 @@
         "publisher": "Liftoff",
         "url": "https://liftoff.io/blog/",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -820,8 +817,8 @@
         "url": "https://support.applovin.com/en/growth/getting-started",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "unity_user_acquisition",
@@ -830,8 +827,8 @@
         "url": "https://docs.unity.com/en-us/user-acquisition",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "applovin_developer_docs",
@@ -840,8 +837,8 @@
         "url": "https://developers.applovin.com/en/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "facebook_audience_network",
@@ -850,8 +847,8 @@
         "url": "https://developers.facebook.com/docs/audience-network/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "unity_levelplay_docs",
@@ -860,8 +857,8 @@
         "url": "https://docs.unity.com/grow/levelplay/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "unity_status",
@@ -870,8 +867,8 @@
         "url": "https://status.unity.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "admob_help",
@@ -880,8 +877,8 @@
         "url": "https://support.google.com/admob/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "admob_policy_changelog",
@@ -890,8 +887,8 @@
         "url": "https://support.google.com/admob/answer/9391084?hl=en",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "inmobi_whats_new",
@@ -900,8 +897,8 @@
         "url": "https://support.inmobi.com/inmobi-now",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "vungle_android_releases",
@@ -910,8 +907,8 @@
         "url": "https://support.vungle.com/hc/en-us/articles/15722228922395-Download-Vungle-SDK-for-Android-Amazon",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "vungle_ios_releases",
@@ -920,8 +917,8 @@
         "url": "https://support.vungle.com/hc/en-us/articles/15718672681883-Download-Vungle-SDK-for-iOS",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "moloco_publisher_help",
@@ -930,8 +927,8 @@
         "url": "https://help.publisher.moloco.com/hc/en-us",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "moloco_android_sdk_releases",
@@ -940,8 +937,8 @@
         "url": "https://moloco.github.io/android-sdk-docs/index.html",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "appsflyer_developer_docs",
@@ -950,8 +947,8 @@
         "url": "https://dev.appsflyer.com/hc/docs",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "appsflyer_whats_new",
@@ -960,8 +957,8 @@
         "url": "https://support.appsflyer.com/hc/en-us/sections/6551161473041-What-s-new",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "appsflyer_status",
@@ -970,8 +967,8 @@
         "url": "https://status.appsflyer.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "adjust_help",
@@ -980,8 +977,8 @@
         "url": "https://help.adjust.com/en/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "adjust_status",
@@ -990,8 +987,8 @@
         "url": "https://status.adjust.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "kochava_product_updates",
@@ -999,8 +996,8 @@
         "publisher": "Kochava",
         "url": "https://www.kochava.com/category/product-updates/",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1009,8 +1006,8 @@
         "publisher": "Information Commissioner's Office",
         "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/about-this-guidance/",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1019,8 +1016,8 @@
         "publisher": "Microsoft",
         "url": "https://www.microsoft.com/en-us/microsoft-365/roadmap",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1030,8 +1027,8 @@
         "url": "https://workspaceupdates.googleblog.com/",
         "priority": "conditional",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "google_workspace_status",
@@ -1040,8 +1037,8 @@
         "url": "https://www.google.com/appsstatus/dashboard/summary",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "slack_release_notes",
@@ -1049,8 +1046,8 @@
         "publisher": "Slack",
         "url": "https://slack.com/release-notes",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1060,8 +1057,8 @@
         "url": "https://status.slack.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "airtable_newsroom",
@@ -1069,8 +1066,8 @@
         "publisher": "Airtable",
         "url": "https://www.airtable.com/newsroom",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1080,8 +1077,8 @@
         "url": "https://status.airtable.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "lastpass_release_notes",
@@ -1089,8 +1086,8 @@
         "publisher": "LastPass",
         "url": "https://lastpass.com/releasenotes.php",
         "priority": "high",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1100,8 +1097,8 @@
         "url": "https://status.lastpass.com/",
         "priority": "high",
         "status": "failed",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": ""
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": null
       },
       {
         "id": "onepassword_releases",
@@ -1109,8 +1106,8 @@
         "publisher": "1Password",
         "url": "https://releases.1password.com/",
         "priority": "conditional",
-        "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
+        "status": "not_due",
+        "checkedAt": "",
         "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
       },
       {
@@ -1120,8 +1117,8 @@
         "url": "https://status.1password.com/",
         "priority": "high",
         "status": "success",
-        "checkedAt": "2026-07-23T12:24:27.760201+08:00",
-        "lastSuccessAt": "2026-07-23T12:24:27.760201+08:00"
+        "checkedAt": "2026-07-24T12:23:43.307297+08:00",
+        "lastSuccessAt": "2026-07-24T12:23:43.307297+08:00"
       },
       {
         "id": "android_authority_google_play",
@@ -1267,153 +1264,44 @@
     "candidateSources": 0,
     "candidateSourcesUpdatedAt": ""
   },
-  "analysisPending": 262,
+  "requiredSourceCoverage": {
+    "status": "complete",
+    "complete": true,
+    "failedSources": []
+  },
+  "publication": {
+    "status": "ready",
+    "publicationReady": true,
+    "requiredSourcesComplete": true,
+    "hasAnalysisResults": true,
+    "incompleteSources": [],
+    "analysisPending": 0,
+    "modelErrors": []
+  },
+  "analysisPending": 0,
   "modelErrors": [],
   "events": [
     {
-      "section": "政策变更",
-      "title": "美国外部内容链接与替代计费项目交易报告及服务费生效通知",
-      "publishedAt": "2026-07-22",
-      "effectiveAt": "2026-10-01",
-      "summary": "Google Play 于 2026-07-22 发布通知：自 2026 年起，美国地区加入外部内容链接（external content links）和替代计费（alternative billing）项目的开发者，须自 2026-10-01 起报告交易与成功下载数据，并缴纳相关服务费。",
-      "impact": "影响在美国发行并参与外部链接或替代计费项目的开发者：需建立交易与下载数据上报流程，并按新规则缴纳服务费，否则可能面临合规风险或项目资格受影响；财务与结算模型需相应调整。",
-      "action": "1) 梳理美国市场是否参与外部内容链接/替代计费项目；2) 在 2026-10-01 前完成交易与成功下载数据上报能力建设；3) 评估并预留相关服务费成本；4) 更新财务与合规流程并与 Google Play 对账机制对齐。",
-      "owner": "产品/财务/合规/研发",
-      "priority": "high",
-      "confirmed": true,
-      "sourceId": "google_play_us_policy_update",
-      "sourceName": "Google Play 美国开发者政策更新",
-      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
-      "fingerprint": "1cd78324d0308572a9bd9263",
-      "sourceLinks": [
-        {
-          "name": "Google Play 美国开发者政策更新",
-          "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en"
-        }
-      ]
-    },
-    {
-      "section": "新闻报道",
-      "title": "FTC 对 Trend Deploy 欺骗性营销行为向消费者退款",
-      "publishedAt": "2026-07-22",
-      "effectiveAt": "",
-      "summary": "FTC 宣布将向因 Trend Deploy 的欺骗性营销行为而受到损害的消费者退还资金。",
-      "impact": "涉及欺骗性营销和消费者保护，可能影响相关营销合规策略，需关注具体营销行为是否涉及应用商店推广或支付误导。",
-      "action": "审查与 Trend Deploy 相关的营销活动，确保所有推广内容符合 FTC 关于真实性和透明度的要求，避免类似违规行为。",
-      "owner": "合规/法务/市场营销",
-      "priority": "medium",
-      "confirmed": false,
-      "sourceId": "ftc_press_releases",
-      "sourceName": "FTC Press Releases",
-      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
-      "fingerprint": "2545a50831da37d188f887ee",
-      "sourceLinks": [
-        {
-          "name": "FTC Press Releases",
-          "url": "https://www.ftc.gov/feeds/press-release.xml"
-        }
-      ]
-    },
-    {
-      "section": "新闻报道",
-      "title": "FTC 永久禁止学生贷款欺诈者从事债务减免和电话营销行业",
-      "publishedAt": "2026-07-21",
-      "effectiveAt": "",
-      "summary": "FTC 宣布对一名学生贷款欺诈者实施永久禁令，禁止其从事债务减免行业和电话营销活动。",
-      "impact": "该事件主要针对债务减免和电话营销领域的欺诈行为，与应用商店、订阅、支付、隐私、儿童、内容治理、账号或安全无直接关联。",
-      "action": "无需直接行动，但需持续关注 FTC 对欺诈行为的打击动态，确保自身业务不涉及类似违规。",
-      "owner": "合规/法务",
-      "priority": "low",
-      "confirmed": false,
-      "sourceId": "ftc_press_releases",
-      "sourceName": "FTC Press Releases",
-      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
-      "fingerprint": "1ac5146a2511b4a242e46b59",
-      "sourceLinks": [
-        {
-          "name": "FTC Press Releases",
-          "url": "https://www.ftc.gov/feeds/press-release.xml"
-        }
-      ]
-    },
-    {
-      "section": "政策变更",
-      "title": "新加坡PDPC发布生成式AI中个人数据使用咨询指南",
-      "publishedAt": "2026-07-20",
-      "effectiveAt": "2026-07-20",
-      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式人工智能场景中收集、使用和披露个人数据提供合规指引。",
-      "impact": "涉及生成式AI产品或服务的应用开发者、平台运营方需审视其AI模型训练、推理及数据处理流程是否符合PDPA要求，特别是在数据来源合法性、用户告知、同意机制及数据最小化方面。不合规可能导致执法调查或处罚。",
-      "action": "审查现有生成式AI功能中个人数据的处理逻辑，确保数据来源合法、具备适当同意机制或合法依据；更新隐私政策以反映AI数据使用场景；开展内部合规培训并留存合规记录。",
-      "owner": "合规与法务团队、AI产品团队、数据保护官（DPO）",
-      "priority": "high",
-      "confirmed": true,
-      "sourceId": "singapore_pdpc_enforcement_decisions",
-      "sourceName": "Singapore PDPC Enforcement Decisions",
-      "sourceUrl": "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions?type=Commission%27s+Decisions",
-      "fingerprint": "1c3ab143cee97367848ba263"
-    },
-    {
-      "section": "政策变更",
-      "title": "OpenAI API 平台新增组织和项目硬性消费限额功能",
-      "publishedAt": "2026-07-22",
-      "effectiveAt": "2026-07-22",
-      "summary": "OpenAI API 平台为组织和项目新增硬性消费限额（hard spend limits）功能，允许设置月度消费上限。当追踪到的消费达到限额时，受影响的 API 请求将返回 429 错误。同时提供消费提醒功能，在流量中断前进行通知。",
-      "impact": "对于依赖 OpenAI API 的应用，若未设置合理的消费限额或消费提醒，可能导致 API 请求在达到限额后被中断（返回 429 错误），影响服务可用性。需要评估现有消费模式并配置适当的限额和提醒机制。",
-      "action": "评估组织/项目在 OpenAI API 平台的月度消费情况，设置合理的硬性消费限额，并启用消费提醒功能，以避免意外的服务中断或超额消费。",
-      "owner": "技术团队/财务团队",
-      "priority": "medium",
-      "confirmed": true,
-      "sourceId": "openai_api_changelog",
-      "sourceName": "OpenAI API Changelog",
-      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
-      "fingerprint": "f72f2b4e3b680f14f6e7affa",
-      "sourceLinks": [
-        {
-          "name": "OpenAI API Changelog",
-          "url": "https://developers.openai.com/api/docs/changelog"
-        }
-      ]
-    },
-    {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
-      "title": "Google Play 家庭政策预览：禁止匿名聊天应用针对儿童",
-      "publishedAt": "2026-07-21",
+      "title": "Google Play Families 政策更新：禁止匿名聊天应用面向儿童",
+      "publishedAt": "2026-07-23",
       "effectiveAt": "2026-08-26",
-      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展其《家庭政策要求》（Families Policy Requirements），明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如聊天轮盘、约会应用、儿童开放式聊天室、匿名应用、“盲聊”应用等）将儿童列为目标受众。该变更将于 2026 年 8 月 26 日生效。",
-      "impact": "若应用包含匿名聊天或陌生人聊天功能且目标受众包含儿童，将在生效后面临下架或暂停风险；涉及儿童隐私与内容安全合规，属 P0 级儿童保护政策，影响所有面向家庭/儿童市场的社交或含社交功能应用。",
-      "action": "1) 排查应用是否包含匿名聊天、陌生人匹配、开放式聊天室等功能；2) 若存在且目标受众含儿童，需在 2026-08-26 前移除相关功能或调整目标受众排除儿童；3) 更新 Play Console 中目标受众与内容分级问卷；4) 确保社交功能具备成人验证机制及在线安全提示；5) 同步法务与合规团队评估 COPPA/GDPR-K 合规。",
-      "owner": "产品/合规/法务",
+      "summary": "Google Play 于 2026 年 7 月政策预览中宣布扩展 Families Policy Requirements，明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如 chat roulette、匿名聊天室、约会应用等）将儿童纳入目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名/陌生人社交类应用将面临下架或暂停风险；开发者需重新评估目标受众声明及社交功能设计，否则可能违反政策导致应用被移除。",
+      "action": "1. 审查应用是否包含匿名聊天或与陌生人聊天功能；2. 若存在此类功能，移除儿童目标受众声明或下线相关功能；3. 在 2026-08-26 前完成 Play Console 目标受众及内容评级问卷的更新；4. 确保社交功能具备成人验证机制及在线安全提示。",
+      "owner": "产品合规团队 / 开发者",
       "priority": "critical",
       "confirmed": true,
-      "sourceId": "url::8a1adfad88826ca5533c",
+      "sourceId": "url::a7e7c5b58644b166174d",
       "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
       "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
-      "fingerprint": "725bc9695a02a0360e3b815c",
+      "fingerprint": "e9336cc777601d1d5caf7beb",
       "sourceLinks": [
         {
           "name": "Google Play Policy Center — Preview: Google Play Families Policies",
           "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
-        }
-      ]
-    },
-    {
-      "section": "子页面细则变更",
-      "businessPriority": "P0-A",
-      "title": "Google Play Families Policies 将禁止匿名聊天应用针对儿童",
-      "publishedAt": "",
-      "effectiveAt": "2026-08-26",
-      "summary": "Google Play 宣布将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（anonymous chat apps）的开发者将儿童作为目标用户。该变更将于 2026 年 8 月 26 日生效。",
-      "impact": "面向儿童或混合受众的匿名聊天类应用将面临下架或暂停风险；开发者需重新评估应用的目标受众声明及社交功能设计，确保不向儿童开放匿名聊天功能，否则可能违反政策导致应用被移除。",
-      "action": "1. 排查旗下应用是否包含匿名聊天功能且目标受众包含儿童；2. 若存在此类情况，需在 2026-08-26 前调整目标受众设置或移除/限制匿名聊天功能对儿童的可用性；3. 更新 Play Console 中的目标受众和内容声明，确保合规。",
-      "owner": "产品合规团队 / 应用开发团队",
-      "priority": "critical",
-      "confirmed": true,
-      "sourceId": "url::429efe9e3ee73b505938",
-      "sourceName": "Google Play Policy Center — Google Play Families Policies",
-      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766",
-      "fingerprint": "6b433e9f825362f6698f373b",
-      "sourceLinks": [
+        },
         {
           "name": "Google Play Policy Center — Google Play Families Policies",
           "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
@@ -1421,98 +1309,72 @@
       ]
     },
     {
-      "section": "政策变更",
+      "section": "新闻报道",
       "businessPriority": "P0-A",
-      "title": "年龄分级问卷新增社交媒体相关问题",
-      "publishedAt": "2026-07-09",
-      "effectiveAt": "2026-09-01",
-      "summary": "App Store Connect 年龄分级问卷新增关于应用社交媒体能力的问题。社交媒体能力定义为通过社交信息流或类似发现方式重新分发、放大或互动用户生成内容的能力。具备该能力的应用将在 App Store 产品页面显示新的“社交媒体”内容描述符。若应用声明具备社交媒体能力但对 13 岁以下用户禁用，则不会纳入 13 岁以下用户的社交媒体时间限额类别。自 2026 年 9 月起，提交新应用或更新时必须回答这些问题。",
-      "impact": "涉及社交功能（如 UGC 信息流、分享、评论、点赞等）的应用需重新评估年龄分级问卷回答，否则将无法提交新应用或更新。错误回答可能导致审核拒绝或产品页面展示不准确，影响用户获取和合规性。",
-      "action": "1. 审查应用是否具备社交媒体能力（信息流、UGC 互动、内容放大等）；2. 在 App Store Connect 中更新年龄分级问卷回答；3. 若对 13 岁以下用户禁用社交功能，确认相关设置；4. 在 2026 年 9 月前完成问卷更新以确保后续提审不受影响。",
-      "owner": "产品合规团队 / 应用审核对接人",
+      "title": "欧盟委员会因违反DMA对Google处以8.9亿欧元罚款",
+      "publishedAt": "2026-07-23",
+      "effectiveAt": "",
+      "summary": "2026年7月23日，欧盟委员会作出两项决定，认定Google违反《数字市场法》(DMA)：一是在Google Search中自我优待其自有服务；二是在Google Play中对商家施加限制，阻止其引导消费者使用其他通常更便宜的购买渠道（steering行为）。",
+      "impact": "Google Play被认定在应用内购引导（steering）方面违反DMA，直接影响应用商店的支付引导政策。所有在欧盟Google Play上架的开发者可能受益于更宽松的替代支付/购买渠道引导规则，同时需关注Google后续政策调整及合规要求变化。",
+      "action": "1. 持续跟踪欧盟委员会对Google Play steering限制的具体整改要求及Google的政策响应；2. 评估自身应用在欧盟区Google Play的支付/订阅引导策略，判断是否可合规利用替代渠道；3. 关注DMA执法先例对Apple App Store及其他应用商店的潜在连锁影响。",
+      "owner": "政策合规/支付/法务团队",
       "priority": "critical",
       "confirmed": true,
-      "sourceId": "apple_app_review_news",
-      "sourceName": "Apple Developer News — App Review",
-      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "27ae8d912930c3413c8740d8",
-      "sourceLinks": [
-        {
-          "name": "Apple Developer News — App Review",
-          "url": "https://developer.apple.com/news/?topic=app-review"
-        }
-      ]
-    },
-    {
-      "section": "政策变更",
-      "businessPriority": "P0-A",
-      "title": "德克萨斯州年龄验证与未成年人同意要求生效",
-      "publishedAt": "2026-06-03",
-      "effectiveAt": "2026-06-04",
-      "summary": "因法院解除对德州 SB 2420 法律的禁令，新 Apple Accounts 在德州须遵守年龄验证要求。开发者须对 18 岁以下用户的下载、Apple In-App Purchases 及应用重大变更获取父母或监护人同意，父母可撤销同意。开发者需通过 Declared Age Range API 获取年龄分类数据，通过 PermissionKit 下的 Significant Change API 处理重大变更，并配置 App Store 服务器通知以接收同意撤销信息。",
-      "impact": "直接影响儿童与账号安全合规。未实现相关 API 将导致在德州无法合规运营，面临下架或法律风险。涉及应用分发、内购及订阅业务。",
-      "action": "1) 集成 Declared Age Range API 获取用户年龄分类；2) 集成 PermissionKit 下的 Significant Change API；3) 配置 App Store 服务器通知以接收同意撤销；4) 在 StoreKit 中使用新的年龄分级属性类型；5) 使用 Apple 沙盒环境测试验证。",
-      "owner": "研发 / 法务合规 / 产品",
-      "priority": "critical",
-      "confirmed": true,
-      "sourceId": "apple_app_review_news",
-      "sourceName": "Apple Developer News — App Review",
-      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "e874d2644882068b29db2005"
-    },
-    {
-      "section": "政策变更",
-      "businessPriority": "P0-A",
-      "title": "巴西 iOS 替代分发、替代支付及核心技术佣金政策生效",
-      "publishedAt": "2026-06-18",
-      "effectiveAt": "2026-06-18",
-      "summary": "根据与巴西竞争监管机构 CADE 的协议，自 iOS 26.5 起，开发者可在巴西通过替代应用市场分发应用、运营替代应用市场、在 Apple In-App Purchase 之外处理数字商品和服务支付，并涉及核心技术佣金（Core Technology Commission）。Apple Developer Program License Agreement Attachment 12 已修订相应条款。",
-      "impact": "直接影响巴西市场分发与支付策略，涉及应用商店、订阅与支付业务。开发者可选择替代分发渠道和支付方式，但需承担核心技术佣金并遵守新条款。",
-      "action": "1) 评估巴西市场是否采用替代分发或替代支付方案；2) 审阅并签署更新后的 Apple Developer Program License Agreement Attachment 12；3) 核算核心技术佣金对收入的影响；4) 确保替代支付流程符合巴西当地法规。",
-      "owner": "巴西市场业务负责人 / 法务 / 支付团队",
-      "priority": "critical",
-      "confirmed": true,
-      "sourceId": "apple_app_review_news",
-      "sourceName": "Apple Developer News — App Review",
-      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "0c66c7631d8eedca10394144"
-    },
-    {
-      "section": "政策变更",
-      "businessPriority": "P0-A",
-      "title": "App Store 新增 12 个月承诺期月度订阅选项",
-      "publishedAt": "2026-04-27",
-      "effectiveAt": "2026-05-01",
-      "summary": "App Store 推出新的自动续期订阅支付方式：12 个月承诺期的月度订阅。用户可随时取消以防止续期，但需完成约定付款。Apple 将在续期前发送邮件和推送通知提醒。除美国和  新加坡外，全球可用，需 iOS 26.4 及以上系统。",
-      "impact": "影响订阅业务定价策略与用户留存。提供更灵活的订阅选项可能提升转化率，但需管理承诺期内的用户预期和取消流程。",
-      "action": "1) 评估是否推出 12 个月承诺期月度订阅；2) 在 App Store Connect 配置新订阅类型；3) 在 Xcode 中测试；4) 更新定价策略和用户沟通。",
-      "owner": "订阅业务负责人 / 产品 / 研发",
-      "priority": "high",
-      "confirmed": true,
-      "sourceId": "apple_app_review_news",
-      "sourceName": "Apple Developer News — App Review",
-      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "f002e064a7361ee890a2c204"
-    },
-    {
-      "section": "政策变更",
-      "businessPriority": "P0-A",
-      "title": "巴西固定赔率博彩应用需提交博彩许可证",
-      "publishedAt": "2026-05-08",
-      "effectiveAt": "2026-05-08",
-      "summary": "根据巴西固定赔率博彩法规变更，含固定赔率博彩功能的应用现可在巴西 App Store 分发，但须持有巴西奖品和博彩秘书处（SPA）颁发的有效固定赔率博彩许可证。开发者须在提交新版本时在 App Review Information 的 Notes 字段中填写许可证详情并上传证明文件。回答年龄分级问卷中的博彩问题将把巴西年龄分级设为 A18。",
-      "impact": "影响巴西市场博彩类应用合规。未提供有效许可证将无法通过审核或面临下架。",
-      "action": "1) 确认应用是否含固定赔率博彩功能；2) 获取 SPA 颁发的有效许可证；3) 提交新版本时在 App Review Information 中填写许可证信息并上传证明文件；4) 确保应用符合年龄限制和博彩风险披露要求。",
-      "owner": "巴西市场业务负责人 / 法务 / 研发",
-      "priority": "high",
-      "confirmed": true,
-      "sourceId": "apple_app_review_news",
-      "sourceName": "Apple Developer News — App Review",
-      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
-      "fingerprint": "019a8ae5576bae0b16d71547"
+      "sourceId": "eu_dma_latest_news",
+      "sourceName": "EU Digital Markets Act Latest News",
+      "sourceUrl": "https://digital-markets-act.ec.europa.eu/latest-news_en",
+      "fingerprint": "206fc539bfa8aadfe562dd8b"
     }
   ],
   "historyEvents": [
+    {
+      "section": "新闻报道",
+      "businessPriority": "P0-A",
+      "title": "欧盟委员会因违反DMA对Google处以8.9亿欧元罚款",
+      "publishedAt": "2026-07-23",
+      "effectiveAt": "",
+      "summary": "2026年7月23日，欧盟委员会作出两项决定，认定Google违反《数字市场法》(DMA)：一是在Google Search中自我优待其自有服务；二是在Google Play中对商家施加限制，阻止其引导消费者使用其他通常更便宜的购买渠道（steering行为）。",
+      "impact": "Google Play被认定在应用内购引导（steering）方面违反DMA，直接影响应用商店的支付引导政策。所有在欧盟Google Play上架的开发者可能受益于更宽松的替代支付/购买渠道引导规则，同时需关注Google后续政策调整及合规要求变化。",
+      "action": "1. 持续跟踪欧盟委员会对Google Play steering限制的具体整改要求及Google的政策响应；2. 评估自身应用在欧盟区Google Play的支付/订阅引导策略，判断是否可合规利用替代渠道；3. 关注DMA执法先例对Apple App Store及其他应用商店的潜在连锁影响。",
+      "owner": "政策合规/支付/法务团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "eu_dma_latest_news",
+      "sourceName": "EU Digital Markets Act Latest News",
+      "sourceUrl": "https://digital-markets-act.ec.europa.eu/latest-news_en",
+      "fingerprint": "206fc539bfa8aadfe562dd8b",
+      "firstSeenAt": "2026-07-24",
+      "historyOrigin": "automated"
+    },
+    {
+      "section": "子页面细则变更",
+      "businessPriority": "P0-A",
+      "title": "Google Play Families 政策更新：禁止匿名聊天应用面向儿童",
+      "publishedAt": "2026-07-23",
+      "effectiveAt": "2026-08-26",
+      "summary": "Google Play 于 2026 年 7 月政策预览中宣布扩展 Families Policy Requirements，明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如 chat roulette、匿名聊天室、约会应用等）将儿童纳入目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名/陌生人社交类应用将面临下架或暂停风险；开发者需重新评估目标受众声明及社交功能设计，否则可能违反政策导致应用被移除。",
+      "action": "1. 审查应用是否包含匿名聊天或与陌生人聊天功能；2. 若存在此类功能，移除儿童目标受众声明或下线相关功能；3. 在 2026-08-26 前完成 Play Console 目标受众及内容评级问卷的更新；4. 确保社交功能具备成人验证机制及在线安全提示。",
+      "owner": "产品合规团队 / 开发者",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "url::a7e7c5b58644b166174d",
+      "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
+      "fingerprint": "e9336cc777601d1d5caf7beb",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Preview: Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
+        },
+        {
+          "name": "Google Play Policy Center — Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
+        }
+      ],
+      "firstSeenAt": "2026-07-24",
+      "historyOrigin": "automated"
+    },
     {
       "section": "子页面细则变更",
       "businessPriority": "P0-A",
@@ -1863,6 +1725,452 @@
       "historyOrigin": "legacy_seed"
     }
   ],
+  "displayEvents": [
+    {
+      "section": "子页面细则变更",
+      "businessPriority": "P0-A",
+      "title": "Google Play Families 政策更新：禁止匿名聊天应用面向儿童",
+      "publishedAt": "2026-07-23",
+      "effectiveAt": "2026-08-26",
+      "summary": "Google Play 于 2026 年 7 月政策预览中宣布扩展 Families Policy Requirements，明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如 chat roulette、匿名聊天室、约会应用等）将儿童纳入目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名/陌生人社交类应用将面临下架或暂停风险；开发者需重新评估目标受众声明及社交功能设计，否则可能违反政策导致应用被移除。",
+      "action": "1. 审查应用是否包含匿名聊天或与陌生人聊天功能；2. 若存在此类功能，移除儿童目标受众声明或下线相关功能；3. 在 2026-08-26 前完成 Play Console 目标受众及内容评级问卷的更新；4. 确保社交功能具备成人验证机制及在线安全提示。",
+      "owner": "产品合规团队 / 开发者",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "url::a7e7c5b58644b166174d",
+      "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
+      "fingerprint": "e9336cc777601d1d5caf7beb",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Preview: Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
+        },
+        {
+          "name": "Google Play Policy Center — Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
+        }
+      ],
+      "isHistory": false,
+      "displaySection": "子页面细则变更"
+    },
+    {
+      "section": "新闻报道",
+      "businessPriority": "P0-A",
+      "title": "欧盟委员会因违反DMA对Google处以8.9亿欧元罚款",
+      "publishedAt": "2026-07-23",
+      "effectiveAt": "",
+      "summary": "2026年7月23日，欧盟委员会作出两项决定，认定Google违反《数字市场法》(DMA)：一是在Google Search中自我优待其自有服务；二是在Google Play中对商家施加限制，阻止其引导消费者使用其他通常更便宜的购买渠道（steering行为）。",
+      "impact": "Google Play被认定在应用内购引导（steering）方面违反DMA，直接影响应用商店的支付引导政策。所有在欧盟Google Play上架的开发者可能受益于更宽松的替代支付/购买渠道引导规则，同时需关注Google后续政策调整及合规要求变化。",
+      "action": "1. 持续跟踪欧盟委员会对Google Play steering限制的具体整改要求及Google的政策响应；2. 评估自身应用在欧盟区Google Play的支付/订阅引导策略，判断是否可合规利用替代渠道；3. 关注DMA执法先例对Apple App Store及其他应用商店的潜在连锁影响。",
+      "owner": "政策合规/支付/法务团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "eu_dma_latest_news",
+      "sourceName": "EU Digital Markets Act Latest News",
+      "sourceUrl": "https://digital-markets-act.ec.europa.eu/latest-news_en",
+      "fingerprint": "206fc539bfa8aadfe562dd8b",
+      "isHistory": false,
+      "displaySection": "新闻报道"
+    },
+    {
+      "section": "子页面细则变更",
+      "businessPriority": "P0-A",
+      "title": "Google Play Families Policies 将禁止匿名聊天应用针对儿童",
+      "publishedAt": "",
+      "effectiveAt": "2026-08-26",
+      "summary": "Google Play 宣布将扩展 Families Policy Requirements 政策，明确禁止匿名聊天应用（anonymous chat apps）的开发者将儿童作为目标用户。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "面向儿童或混合受众的匿名聊天类应用将面临下架或暂停风险；开发者需重新评估应用的目标受众声明及社交功能设计，确保不向儿童开放匿名聊天功能，否则可能违反政策导致应用被移除。",
+      "action": "1. 排查旗下应用是否包含匿名聊天功能且目标受众包含儿童；2. 若存在此类情况，需在 2026-08-26 前调整目标受众设置或移除/限制匿名聊天功能对儿童的可用性；3. 更新 Play Console 中的目标受众和内容声明，确保合规。",
+      "owner": "产品合规团队 / 应用开发团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "url::429efe9e3ee73b505938",
+      "sourceName": "Google Play Policy Center — Google Play Families Policies",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766",
+      "fingerprint": "6b433e9f825362f6698f373b",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/9893335?hl=en&ref_topic=9877766"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "子页面细则变更"
+    },
+    {
+      "section": "政策变更",
+      "title": "美国外部内容链接与替代计费项目交易报告及服务费生效通知",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "2026-10-01",
+      "summary": "Google Play 于 2026-07-22 发布通知：自 2026 年起，美国地区加入外部内容链接（external content links）和替代计费（alternative billing）项目的开发者，须自 2026-10-01 起报告交易与成功下载数据，并缴纳相关服务费。",
+      "impact": "影响在美国发行并参与外部链接或替代计费项目的开发者：需建立交易与下载数据上报流程，并按新规则缴纳服务费，否则可能面临合规风险或项目资格受影响；财务与结算模型需相应调整。",
+      "action": "1) 梳理美国市场是否参与外部内容链接/替代计费项目；2) 在 2026-10-01 前完成交易与成功下载数据上报能力建设；3) 评估并预留相关服务费成本；4) 更新财务与合规流程并与 Google Play 对账机制对齐。",
+      "owner": "产品/财务/合规/研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "google_play_us_policy_update",
+      "sourceName": "Google Play 美国开发者政策更新",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+      "fingerprint": "1cd78324d0308572a9bd9263",
+      "sourceLinks": [
+        {
+          "name": "Google Play 美国开发者政策更新",
+          "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "政策变更",
+      "title": "OpenAI API 平台新增组织和项目硬性消费限额功能",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "2026-07-22",
+      "summary": "OpenAI API 平台为组织和项目新增硬性消费限额（hard spend limits）功能，允许设置月度消费上限。当追踪到的消费达到限额时，受影响的 API 请求将返回 429 错误。同时提供消费提醒功能，在流量中断前进行通知。",
+      "impact": "对于依赖 OpenAI API 的应用，若未设置合理的消费限额或消费提醒，可能导致 API 请求在达到限额后被中断（返回 429 错误），影响服务可用性。需要评估现有消费模式并配置适当的限额和提醒机制。",
+      "action": "评估组织/项目在 OpenAI API 平台的月度消费情况，设置合理的硬性消费限额，并启用消费提醒功能，以避免意外的服务中断或超额消费。",
+      "owner": "技术团队/财务团队",
+      "priority": "medium",
+      "confirmed": true,
+      "sourceId": "openai_api_changelog",
+      "sourceName": "OpenAI API Changelog",
+      "sourceUrl": "https://developers.openai.com/api/docs/changelog",
+      "fingerprint": "f72f2b4e3b680f14f6e7affa",
+      "sourceLinks": [
+        {
+          "name": "OpenAI API Changelog",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "新闻报道",
+      "title": "FTC 对 Trend Deploy 欺骗性营销行为向消费者退款",
+      "publishedAt": "2026-07-22",
+      "effectiveAt": "",
+      "summary": "FTC 宣布将向因 Trend Deploy 的欺骗性营销行为而受到损害的消费者退还资金。",
+      "impact": "涉及欺骗性营销和消费者保护，可能影响相关营销合规策略，需关注具体营销行为是否涉及应用商店推广或支付误导。",
+      "action": "审查与 Trend Deploy 相关的营销活动，确保所有推广内容符合 FTC 关于真实性和透明度的要求，避免类似违规行为。",
+      "owner": "合规/法务/市场营销",
+      "priority": "medium",
+      "confirmed": false,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "2545a50831da37d188f887ee",
+      "sourceLinks": [
+        {
+          "name": "FTC Press Releases",
+          "url": "https://www.ftc.gov/feeds/press-release.xml"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "新闻报道"
+    },
+    {
+      "section": "子页面细则变更",
+      "businessPriority": "P0-A",
+      "title": "Google Play 家庭政策预览：禁止匿名聊天应用针对儿童",
+      "publishedAt": "2026-07-21",
+      "effectiveAt": "2026-08-26",
+      "summary": "Google Play 在 2026 年 7 月政策更新预览中宣布，将扩展其《家庭政策要求》（Families Policy Requirements），明确禁止以匿名聊天或陌生人聊天为主要功能的应用（如聊天轮盘、约会应用、儿童开放式聊天室、匿名应用、“盲聊”应用等）将儿童列为目标受众。该变更将于 2026 年 8 月 26 日生效。",
+      "impact": "若应用包含匿名聊天或陌生人聊天功能且目标受众包含儿童，将在生效后面临下架或暂停风险；涉及儿童隐私与内容安全合规，属 P0 级儿童保护政策，影响所有面向家庭/儿童市场的社交或含社交功能应用。",
+      "action": "1) 排查应用是否包含匿名聊天、陌生人匹配、开放式聊天室等功能；2) 若存在且目标受众含儿童，需在 2026-08-26 前移除相关功能或调整目标受众排除儿童；3) 更新 Play Console 中目标受众与内容分级问卷；4) 确保社交功能具备成人验证机制及在线安全提示；5) 同步法务与合规团队评估 COPPA/GDPR-K 合规。",
+      "owner": "产品/合规/法务",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "url::8a1adfad88826ca5533c",
+      "sourceName": "Google Play Policy Center — Preview: Google Play Families Policies",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766",
+      "fingerprint": "725bc9695a02a0360e3b815c",
+      "sourceLinks": [
+        {
+          "name": "Google Play Policy Center — Preview: Google Play Families Policies",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17122218?hl=en&ref_topic=9877766"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "子页面细则变更"
+    },
+    {
+      "section": "新闻报道",
+      "title": "FTC 永久禁止学生贷款欺诈者从事债务减免和电话营销行业",
+      "publishedAt": "2026-07-21",
+      "effectiveAt": "",
+      "summary": "FTC 宣布对一名学生贷款欺诈者实施永久禁令，禁止其从事债务减免行业和电话营销活动。",
+      "impact": "该事件主要针对债务减免和电话营销领域的欺诈行为，与应用商店、订阅、支付、隐私、儿童、内容治理、账号或安全无直接关联。",
+      "action": "无需直接行动，但需持续关注 FTC 对欺诈行为的打击动态，确保自身业务不涉及类似违规。",
+      "owner": "合规/法务",
+      "priority": "low",
+      "confirmed": false,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC Press Releases",
+      "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
+      "fingerprint": "1ac5146a2511b4a242e46b59",
+      "sourceLinks": [
+        {
+          "name": "FTC Press Releases",
+          "url": "https://www.ftc.gov/feeds/press-release.xml"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "新闻报道"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "年龄分级问卷新增社交媒体相关问题",
+      "publishedAt": "2026-07-09",
+      "effectiveAt": "2026-09-01",
+      "summary": "App Store Connect 年龄分级问卷新增关于应用社交媒体能力的问题。社交媒体能力定义为通过社交信息流或类似发现方式重新分发、放大或互动用户生成内容的能力。具备该能力的应用将在 App Store 产品页面显示新的“社交媒体”内容描述符。若应用声明具备社交媒体能力但对 13 岁以下用户禁用，则不会纳入 13 岁以下用户的社交媒体时间限额类别。自 2026 年 9 月起，提交新应用或更新时必须回答这些问题。",
+      "impact": "涉及社交功能（如 UGC 信息流、分享、评论、点赞等）的应用需重新评估年龄分级问卷回答，否则将无法提交新应用或更新。错误回答可能导致审核拒绝或产品页面展示不准确，影响用户获取和合规性。",
+      "action": "1. 审查应用是否具备社交媒体能力（信息流、UGC 互动、内容放大等）；2. 在 App Store Connect 中更新年龄分级问卷回答；3. 若对 13 岁以下用户禁用社交功能，确认相关设置；4. 在 2026 年 9 月前完成问卷更新以确保后续提审不受影响。",
+      "owner": "产品合规团队 / 应用审核对接人",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "27ae8d912930c3413c8740d8",
+      "sourceLinks": [
+        {
+          "name": "Apple Developer News — App Review",
+          "url": "https://developer.apple.com/news/?topic=app-review"
+        }
+      ],
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西 iOS 替代分发、替代支付及核心技术佣金政策生效",
+      "publishedAt": "2026-06-18",
+      "effectiveAt": "2026-06-18",
+      "summary": "根据与巴西竞争监管机构 CADE 的协议，自 iOS 26.5 起，开发者可在巴西通过替代应用市场分发应用、运营替代应用市场、在 Apple In-App Purchase 之外处理数字商品和服务支付，并涉及核心技术佣金（Core Technology Commission）。Apple Developer Program License Agreement Attachment 12 已修订相应条款。",
+      "impact": "直接影响巴西市场分发与支付策略，涉及应用商店、订阅与支付业务。开发者可选择替代分发渠道和支付方式，但需承担核心技术佣金并遵守新条款。",
+      "action": "1) 评估巴西市场是否采用替代分发或替代支付方案；2) 审阅并签署更新后的 Apple Developer Program License Agreement Attachment 12；3) 核算核心技术佣金对收入的影响；4) 确保替代支付流程符合巴西当地法规。",
+      "owner": "巴西市场业务负责人 / 法务 / 支付团队",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "0c66c7631d8eedca10394144",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "德克萨斯州年龄验证与未成年人同意要求生效",
+      "publishedAt": "2026-06-03",
+      "effectiveAt": "2026-06-04",
+      "summary": "因法院解除对德州 SB 2420 法律的禁令，新 Apple Accounts 在德州须遵守年龄验证要求。开发者须对 18 岁以下用户的下载、Apple In-App Purchases 及应用重大变更获取父母或监护人同意，父母可撤销同意。开发者需通过 Declared Age Range API 获取年龄分类数据，通过 PermissionKit 下的 Significant Change API 处理重大变更，并配置 App Store 服务器通知以接收同意撤销信息。",
+      "impact": "直接影响儿童与账号安全合规。未实现相关 API 将导致在德州无法合规运营，面临下架或法律风险。涉及应用分发、内购及订阅业务。",
+      "action": "1) 集成 Declared Age Range API 获取用户年龄分类；2) 集成 PermissionKit 下的 Significant Change API；3) 配置 App Store 服务器通知以接收同意撤销；4) 在 StoreKit 中使用新的年龄分级属性类型；5) 使用 Apple 沙盒环境测试验证。",
+      "owner": "研发 / 法务合规 / 产品",
+      "priority": "critical",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "e874d2644882068b29db2005",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "巴西固定赔率博彩应用需提交博彩许可证",
+      "publishedAt": "2026-05-08",
+      "effectiveAt": "2026-05-08",
+      "summary": "根据巴西固定赔率博彩法规变更，含固定赔率博彩功能的应用现可在巴西 App Store 分发，但须持有巴西奖品和博彩秘书处（SPA）颁发的有效固定赔率博彩许可证。开发者须在提交新版本时在 App Review Information 的 Notes 字段中填写许可证详情并上传证明文件。回答年龄分级问卷中的博彩问题将把巴西年龄分级设为 A18。",
+      "impact": "影响巴西市场博彩类应用合规。未提供有效许可证将无法通过审核或面临下架。",
+      "action": "1) 确认应用是否含固定赔率博彩功能；2) 获取 SPA 颁发的有效许可证；3) 提交新版本时在 App Review Information 中填写许可证信息并上传证明文件；4) 确保应用符合年龄限制和博彩风险披露要求。",
+      "owner": "巴西市场业务负责人 / 法务 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "019a8ae5576bae0b16d71547",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "section": "政策变更",
+      "businessPriority": "P0-A",
+      "title": "App Store 新增 12 个月承诺期月度订阅选项",
+      "publishedAt": "2026-04-27",
+      "effectiveAt": "2026-05-01",
+      "summary": "App Store 推出新的自动续期订阅支付方式：12 个月承诺期的月度订阅。用户可随时取消以防止续期，但需完成约定付款。Apple 将在续期前发送邮件和推送通知提醒。除美国和  新加坡外，全球可用，需 iOS 26.4 及以上系统。",
+      "impact": "影响订阅业务定价策略与用户留存。提供更灵活的订阅选项可能提升转化率，但需管理承诺期内的用户预期和取消流程。",
+      "action": "1) 评估是否推出 12 个月承诺期月度订阅；2) 在 App Store Connect 配置新订阅类型；3) 在 Xcode 中测试；4) 更新定价策略和用户沟通。",
+      "owner": "订阅业务负责人 / 产品 / 研发",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "apple_app_review_news",
+      "sourceName": "Apple Developer News — App Review",
+      "sourceUrl": "https://developer.apple.com/news/?topic=app-review",
+      "fingerprint": "f002e064a7361ee890a2c204",
+      "firstSeenAt": "2026-07-23",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "fingerprint": "1c3ab143cee97367848ba263",
+      "section": "政策变更",
+      "title": "新加坡PDPC发布生成式AI中个人数据使用咨询指南",
+      "publishedAt": "2026-07-20",
+      "effectiveAt": "2026-07-20",
+      "summary": "新加坡个人数据保护委员会（PDPC）于2026年7月20日发布《生成式AI中个人数据使用咨询指南》（Advisory Guidelines on Use of Personal Data in Generative AI），为组织在生成式人工智能场景中收集、使用和披露个人数据提供合规指引。",
+      "impact": "涉及生成式AI产品或服务的应用开发者、平台运营方需审视其AI模型训练、推理及数据处理流程是否符合PDPA要求，特别是在数据来源合法性、用户告知、同意机制及数据最小化方面。不合规可能导致执法调查或处罚。",
+      "action": "审查现有生成式AI功能中个人数据的处理逻辑，确保数据来源合法、具备适当同意机制或合法依据；更新隐私政策以反映AI数据使用场景；开展内部合规培训并留存合规记录。",
+      "owner": "合规与法务团队、AI产品团队、数据保护官（DPO）",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "singapore_pdpc_enforcement_decisions",
+      "sourceName": "Singapore PDPC Enforcement Decisions",
+      "sourceUrl": "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions?type=Commission%27s+Decisions",
+      "firstSeenAt": "2026-07-22",
+      "historyOrigin": "automated",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "fingerprint": "legacy-google-play-us-third-party-store-2026-07-22",
+      "section": "政策变更",
+      "title": "美国第三方 Android 应用商店与 Play Catalog Access 安排生效",
+      "publishedAt": "",
+      "effectiveAt": "2026-07-22",
+      "summary": "Google Play 将向符合条件的美国第三方 Android 应用商店提供分发与目录访问能力。未在截止日前选择退出的开发者，其美国区应用商店资料可能被提供给已登记的第三方商店。",
+      "impact": "影响美国区应用分发范围、商店资料授权、品牌展示与第三方渠道治理。",
+      "action": "复核 Play Console 的第三方商店偏好，并确认法务、品牌和渠道团队的分发决策。",
+      "owner": "分发 / 合规",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "google_play_us_policy_update",
+      "sourceName": "Google Play 政策更新原文",
+      "sourceUrl": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en",
+      "sourceLinks": [
+        {
+          "name": "Google Play 政策更新原文",
+          "url": "https://support.google.com/googleplay/android-developer/answer/15582165?hl=en"
+        },
+        {
+          "name": "第三方应用商店计划要求",
+          "url": "https://support.google.com/googleplay/android-developer/answer/17118006?hl=en"
+        }
+      ],
+      "firstSeenAt": "2026-07-21",
+      "historyOrigin": "legacy_seed",
+      "isHistory": true,
+      "displaySection": "政策变更"
+    },
+    {
+      "fingerprint": "legacy-ai-nudify-app-governance-2026-07-17",
+      "section": "新闻报道",
+      "title": "Apple 与 Google 被要求清理 AI “nudify”应用",
+      "publishedAt": "2026-07-17",
+      "effectiveAt": "",
+      "summary": "媒体报道称旧金山市检察机关要求两家平台移除可生成非自愿私密图像的应用，报道中包含 Apple 与 Google 的回应，但平台官方政策页尚未发布对应变更公告。",
+      "impact": "生成式图像、换脸、UGC 与未成年人相关产品面临更高的内容审核、账号终止和支付合规风险。",
+      "action": "检查生成内容边界、真人图像同意、未成年人保护、举报响应和高风险关键词拦截。",
+      "owner": "安全 / 审核",
+      "priority": "high",
+      "confirmed": false,
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch 新闻原文",
+      "sourceUrl": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
+      "sourceLinks": [
+        {
+          "name": "TechCrunch 新闻原文",
+          "url": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/"
+        },
+        {
+          "name": "MacDailyNews 跟进报道",
+          "url": "https://macdailynews.com/2026/07/20/apple-purges-ai-nudify-apps-from-app-store-after-san-francisco-demands-crackdown-on-non-consensual-deepfakes/"
+        }
+      ],
+      "firstSeenAt": "2026-07-21",
+      "historyOrigin": "legacy_seed",
+      "isHistory": true,
+      "displaySection": "新闻报道"
+    },
+    {
+      "fingerprint": "legacy-ftc-genesis-tech-subscription-case-2026-06-17",
+      "section": "新闻报道",
+      "title": "FTC 起诉 Genesis Tech 订阅业务体系",
+      "publishedAt": "2026-06-17",
+      "effectiveAt": "",
+      "summary": "FTC 指控相关企业隐藏自动续费条款、未经授权或重复收费，并设置困难的取消流程。案件涉及 MadMuscles、Harna、Unimeal、Wisey、PDF Guru、PDF Master、Lumi 与 Nebula 等产品。主要风险点包括自动续费披露、扣费授权、重复与附加收费及便捷取消。",
+      "impact": "表明订阅漏斗、支付链路和取消体验可被监管机构作为一个整体审查，且风险可能跨多个品牌和主体传导。",
+      "action": "按 FTC 指控逐项检查价格与周期披露、扣费同意证据、重复扣费拦截、取消入口和取消后停止扣费。",
+      "owner": "订阅产品 / 法务",
+      "priority": "high",
+      "confirmed": true,
+      "sourceId": "ftc_press_releases",
+      "sourceName": "FTC 执法公告",
+      "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes",
+      "sourceLinks": [
+        {
+          "name": "FTC 执法公告",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-sprawling-enterprise-operating-unlawful-subscription-schemes"
+        },
+        {
+          "name": "FTC 起诉书 PDF",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Growthmind-Wisey-Complaint.pdf"
+        }
+      ],
+      "firstSeenAt": "2026-07-21",
+      "historyOrigin": "legacy_seed",
+      "isHistory": true,
+      "displaySection": "新闻报道"
+    }
+  ],
+  "sectionSummary": {
+    "子页面细则变更": {
+      "total": 3,
+      "current": 1,
+      "history": 2
+    },
+    "新闻报道": {
+      "total": 5,
+      "current": 1,
+      "history": 4
+    },
+    "政策变更": {
+      "total": 9,
+      "current": 0,
+      "history": 9
+    }
+  },
   "attentionItems": [
     {
       "id": "google-play-us-third-party-store-2026-07-22",
@@ -1939,6 +2247,19 @@
       "sourceName": "FTC Press Releases",
       "sourceUrl": "https://www.ftc.gov/feeds/press-release.xml",
       "firstSeenAt": "2026-07-23",
+      "ongoing": true,
+      "category": "无固定日期的持续风险"
+    },
+    {
+      "id": "206fc539bfa8aadfe562dd8b",
+      "status": "active",
+      "title": "欧盟委员会因违反DMA对Google处以8.9亿欧元罚款",
+      "action": "1. 持续跟踪欧盟委员会对Google Play steering限制的具体整改要求及Google的政策响应；2. 评估自身应用在欧盟区Google Play的支付/订阅引导策略，判断是否可合规利用替代渠道；3. 关注DMA执法先例对Apple App Store及其他应用商店的潜在连锁影响。",
+      "owner": "政策合规/支付/法务团队",
+      "effectiveAt": "",
+      "sourceName": "EU Digital Markets Act Latest News",
+      "sourceUrl": "https://digital-markets-act.ec.europa.eu/latest-news_en",
+      "firstSeenAt": "2026-07-24",
       "ongoing": true,
       "category": "无固定日期的持续风险"
     }
